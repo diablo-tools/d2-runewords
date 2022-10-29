@@ -1,0 +1,22 @@
+{
+  "name": "@diablo-tools/d2-runewords",
+  "version": "1.0.0",
+  "description": "A small data package with rune/runeword information for Diablo 2",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diablo-tools/d2-runewords.git"
+  },
+  "keywords": [
+    "data"
+  ],
+  "author": "codingLogan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/diablo-tools/d2-runewords/issues"
+  },
+  "homepage": "https://github.com/diablo-tools/d2-runewords#readme"
+}
