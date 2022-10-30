@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/diablo-tools/d2-runewords/issues"
   },
-  "homepage": "https://github.com/diablo-tools/d2-runewords#readme"
+  "homepage": "https://github.com/diablo-tools/d2-runewords#readme",
+  "devDependencies": {
+    "@types/node": "^18.11.7",
+    "typescript": "^4.8.4"
+  }
 }
