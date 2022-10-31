@@ -1,6 +1,6 @@
 {
   "name": "@diablo-tools/d2-runewords",
-  "version": "1.0.1-beta.0",
+  "version": "1.0.1-beta.1",
   "description": "A small data package with rune/runeword information for Diablo 2",
   "main": "index.js",
   "scripts": {
