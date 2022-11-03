@@ -1,4 +1,5 @@
 import { Gem } from "./gem";
+import { ItemEffect } from "./itemEffect";
 
 export type RuneName =
   | "El"
@@ -51,6 +52,6 @@ export type Rune = {
   image: string;
   level: number;
 
-  armor: string;
-  weapon: string;
+  armor: ItemEffect;
+  weapon: ItemEffect;
 };
