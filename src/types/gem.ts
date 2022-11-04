@@ -1,4 +1,31 @@
-export type Gem = {
-  name: "Topaz" | "Amethyst" | "Sapphire" | "Ruby" | "Emerald" | "Diamond";
-  quality: "Chipped" | "Flawed" | "" | "Flawless" | "Perfect";
-};
+export type Gem =
+  | "Chipped Topaz"
+  | "Flawed Topaz"
+  | "Topaz"
+  | "Flawless Topaz"
+  | "Perfect Topaz"
+  | "Chipped Amethyst"
+  | "Flawed Amethyst"
+  | "Amethyst"
+  | "Flawless Amethyst"
+  | "Perfect Amethyst"
+  | "Chipped Sapphire"
+  | "Flawed Sapphire"
+  | "Sapphire"
+  | "Flawless Sapphire"
+  | "Perfect Sapphire"
+  | "Chipped Ruby"
+  | "Flawed Ruby"
+  | "Ruby"
+  | "Flawless Ruby"
+  | "Perfect Ruby"
+  | "Chipped Emerald"
+  | "Flawed Emerald"
+  | "Emerald"
+  | "Flawless Emerald"
+  | "Perfect Emerald"
+  | "Chipped Diamond"
+  | "Flawed Diamond"
+  | "Diamond"
+  | "Flawless Diamond"
+  | "Perfect Diamond";

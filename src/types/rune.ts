@@ -42,8 +42,12 @@ export type RuneRecipeItem = {
 };
 
 export type RuneRecipe = {
-  rune: RuneName;
   items: Array<RuneRecipeItem>;
+};
+
+// All properties of RuneRecipes should be a RuneName, and contain a RuneRecipe
+export type RuneRecipes = {
+  [R in RuneName]: RuneRecipe;
 };
 
 export type Rune = {
