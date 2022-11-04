@@ -1,5 +1,5 @@
 import { Gem } from "./gem";
-import { ItemEffect } from "./itemEffect";
+import { ItemEffect } from "./items";
 
 export type RuneName =
   | "El"
