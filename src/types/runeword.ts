@@ -8,9 +8,9 @@ export type Runeword = {
   itemType: ItemType;
   runeOrder: Array<RuneName>;
   effects: Array<ItemEffect>;
-  requiredLevel: number;
+  level: number;
   requiredClass: CharacterClass | null;
   ladderOnly: boolean;
-  diablo2: boolean;
-  diablo2Resurrected: boolean;
+  inDiablo2: boolean;
+  inDiablo2Resurrected: boolean;
 };
