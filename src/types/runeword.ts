@@ -1,6 +1,5 @@
 import { CharacterClass } from "./characterClass";
-import { ItemEffect } from "./itemEffect";
-import { ItemType } from "./itemType";
+import { ItemEffect, ItemType } from "./items";
 import { RuneName } from "./rune";
 
 export type Runeword = {
