@@ -1,18 +1,11 @@
 import { Runeword } from "../../types/runeword";
 
-let convertFunction = (word: any) => {
-  return {
-    ...word,
-    runeOrder: word.runeOrder.split(" + "),
-  };
-};
-
-const runewords = [
+const runewords: Array<Runeword> = [
   {
     name: "Ancient's Pledge",
     sockets: 3,
     itemType: "Shields",
-    runeOrder: "Ral + Ort + Tal",
+    runeOrder: ["Ral", "Ort", "Tal"],
     effects: [
       "+50% Enhanced Defense",
       "Cold Resist +43%",
@@ -21,12 +14,13 @@ const runewords = [
       "Poison Resist +48%",
       "10% Damage Goes To Mana",
     ],
+    level: 21,
   },
   {
     name: "Black",
     sockets: 3,
     itemType: "Clubs/Hammers/Maces",
-    runeOrder: "Thul + Io + Nef",
+    runeOrder: ["Thul", "Io", "Nef"],
     effects: [
       "+120% Enhanced Damage",
       "40% Chance Of Crushing Blow",
@@ -38,12 +32,13 @@ const runewords = [
       "Magic Damage Reduced By 2",
       "Level 4 Corpse Explosion (12 Charges)",
     ],
+    level: 35,
   },
   {
     name: "Fury",
     sockets: 3,
     itemType: "Melee Weapons",
-    runeOrder: "Jah + Gul + Eth",
+    runeOrder: ["Jah", "Gul", "Eth"],
     effects: [
       "+209% Enhanced Damage",
       "40% Increased Attack Speed",
@@ -56,12 +51,13 @@ const runewords = [
       "6% Life Stolen Per Hit",
       "+5 To Frenzy (Barbarian Only)",
     ],
+    level: 65,
   },
   {
     name: "Holy Thunder",
     sockets: 4,
     itemType: "Scepters",
-    runeOrder: "Eth + Ral + Ort + Tal",
+    runeOrder: ["Eth", "Ral", "Ort", "Tal"],
     effects: [
       "+60% Enhanced Damage",
       "-25% Target Defense",
@@ -74,12 +70,13 @@ const runewords = [
       "+3 To Holy Shock (Paladin Only)",
       "Level 7 Chain Lightning (60 Charges)",
     ],
+    level: 21,
   },
   {
     name: "Honor",
     sockets: 5,
     itemType: "Melee Weapons",
-    runeOrder: "Amn + El + Ith + Tir + Sol",
+    runeOrder: ["Amn", "El", "Ith", "Tir", "Sol"],
     effects: [
       "+160% Enhanced Damage",
       "+9 To Minimum Damage",
@@ -93,12 +90,13 @@ const runewords = [
       "+1 To Light Radius",
       "+2 To Mana After Each Kill",
     ],
+    level: 27,
   },
   {
     name: "King's Grace",
     sockets: 3,
     itemType: "Swords/Scepters",
-    runeOrder: "Amn + Ral + Thul",
+    runeOrder: ["Amn", "Ral", "Thul"],
     effects: [
       "+100% Enhanced Damage",
       "+100% Damage To Demons",
@@ -110,12 +108,13 @@ const runewords = [
       "+100 To Attack Rating Against Undead",
       "7% Life Stolen Per Hit",
     ],
+    level: 25,
   },
   {
     name: "Leaf",
     sockets: 2,
     itemType: "Staves* (Not Orbs)",
-    runeOrder: "Tir + Ral",
+    runeOrder: ["Tir", "Ral"],
     effects: [
       "Adds 5-30 Fire Damage",
       "+3 To Fire Skills",
@@ -126,12 +125,13 @@ const runewords = [
       "+ (2 Per Character Level) +2-198 To Defense (Based On Character Level)",
       "Cold Resist +33%",
     ],
+    level: 19,
   },
   {
     name: "Lionheart",
     sockets: 3,
     itemType: "Body Armor",
-    runeOrder: "Hel + Lum + Fal",
+    runeOrder: ["Hel", "Lum", "Fal"],
     effects: [
       "+20% Enhanced Damage",
       "Requirements -15%",
@@ -142,12 +142,13 @@ const runewords = [
       "+50 To Life",
       "All Resistances +30",
     ],
+    level: 41,
   },
   {
     name: "Lore",
     sockets: 2,
     itemType: "Helms",
-    runeOrder: "Ort + Sol",
+    runeOrder: ["Ort", "Sol"],
     effects: [
       "+1 To All Skill Levels",
       "+10 To Energy",
@@ -156,12 +157,13 @@ const runewords = [
       "Damage Reduced By 7",
       "+2 To Light Radius",
     ],
+    level: 27,
   },
   {
     name: "Malice",
     sockets: 3,
     itemType: "Melee Weapons",
-    runeOrder: "Ith + El + Eth",
+    runeOrder: ["Ith", "El", "Eth"],
     effects: [
       "+33% Enhanced Damage",
       "+9 To Maximum Damage",
@@ -172,12 +174,13 @@ const runewords = [
       "+50 To Attack Rating",
       "Drain Life -5",
     ],
+    level: 15,
   },
   {
     name: "Melody",
     sockets: 3,
     itemType: "Missile Weapons",
-    runeOrder: "Shael + Ko + Nef",
+    runeOrder: ["Shael", "Ko", "Nef"],
     effects: [
       "+50% Enhanced Damage",
       "+300% Damage To Undead",
@@ -189,12 +192,13 @@ const runewords = [
       "+10 To Dexterity",
       "Knockback",
     ],
+    level: 39,
   },
   {
     name: "Memory",
     sockets: 4,
     itemType: "Staves (Not Orbs)",
-    runeOrder: "Lum + Io + Sol + Eth",
+    runeOrder: ["Lum", "Io", "Sol", "Eth"],
     effects: [
       "+3 to Sorceress Skill Levels",
       "33% Faster Cast Rate",
@@ -208,12 +212,13 @@ const runewords = [
       "Magic Damage Reduced By 7",
       "+50% Enhanced Defense",
     ],
+    level: 37,
   },
   {
     name: "Nadir",
     sockets: 2,
     itemType: "Helms",
-    runeOrder: "Nef + Tir",
+    runeOrder: ["Nef", "Tir"],
     effects: [
       "+50% Enhanced Defense",
       "+10 Defense",
@@ -224,12 +229,13 @@ const runewords = [
       "-33% Extra Gold From Monsters",
       "-3 To Light Radius",
     ],
+    level: 13,
   },
   {
     name: "Radiance",
     sockets: 3,
     itemType: "Helms",
-    runeOrder: "Nef + Sol + Ith",
+    runeOrder: ["Nef", "Sol", "Ith"],
     effects: [
       "+75% Enhanced Defense",
       "+30 Defense Vs. Missile",
@@ -241,12 +247,13 @@ const runewords = [
       "Damage Reduced By 7",
       "+5 To Light Radius",
     ],
+    level: 27,
   },
   {
     name: "Rhyme",
     sockets: 2,
     itemType: "Shields",
-    runeOrder: "Shael + Eth",
+    runeOrder: ["Shael", "Eth"],
     effects: [
       "20% Increased Chance of Blocking",
       "40% Faster Block Rate",
@@ -256,12 +263,13 @@ const runewords = [
       "50% Extra Gold From Monsters",
       "25% Better Chance Of Getting Magic Items",
     ],
+    level: 29,
   },
   {
     name: "Silence",
     sockets: 6,
     itemType: "Weapons",
-    runeOrder: "Dol + Eld + Hel + Ist + Tir + Vex",
+    runeOrder: ["Dol", "Eld", "Hel", "Ist", "Tir", "Vex"],
     effects: [
       "200% Enhanced Damage",
       "+75% Damage To Undead",
@@ -277,12 +285,13 @@ const runewords = [
       "+2 To Mana After Each Kill",
       "30% Better Chance Of Getting Magic Items",
     ],
+    level: 55,
   },
   {
     name: "Smoke",
     sockets: 2,
     itemType: "Body Armor",
-    runeOrder: "Nef + Lum",
+    runeOrder: ["Nef", "Lum"],
     effects: [
       "+75% Enhanced Defense",
       "+280 Defense Vs. Missile",
@@ -292,12 +301,13 @@ const runewords = [
       "+10 To Energy",
       "-1 To Light Radius",
     ],
+    level: 37,
   },
   {
     name: "Stealth",
     sockets: 2,
     itemType: "Body Armor",
-    runeOrder: "Tal + Eth",
+    runeOrder: ["Tal", "Eth"],
     effects: [
       "Magic Damage Reduced By 3",
       "+6 To Dexterity",
@@ -308,12 +318,13 @@ const runewords = [
       "25% Faster Cast Rate",
       "25% Faster Hit Recovery",
     ],
+    level: 17,
   },
   {
     name: "Steel",
     sockets: 2,
     itemType: "Swords/Axes/Maces",
-    runeOrder: "Tir + El",
+    runeOrder: ["Tir", "El"],
     effects: [
       "20% Enhanced Damage",
       "+3 To Minimum Damage",
@@ -324,12 +335,13 @@ const runewords = [
       "+2 To Mana After Each Kill",
       "+1 To Light Radius",
     ],
+    level: 13,
   },
   {
     name: "Strength",
     sockets: 2,
     itemType: "Melee Weapons",
-    runeOrder: "Amn + Tir",
+    runeOrder: ["Amn", "Tir"],
     effects: [
       "35% Enhanced Damage",
       "25% Chance Of Crushing Blow",
@@ -338,12 +350,13 @@ const runewords = [
       "+20 To Strength",
       "+10 To Vitality",
     ],
+    level: 25,
   },
   {
     name: "Venom",
     sockets: 3,
     itemType: "Weapons",
-    runeOrder: "Tal + Dol + Mal",
+    runeOrder: ["Tal", "Dol", "Mal"],
     effects: [
       "Hit Causes Monster To Flee 25%",
       "Prevent Monster Heal",
@@ -353,24 +366,26 @@ const runewords = [
       "Level 13 Poison Nova (11 Charges)",
       "+273 Poison Damage Over 6 seconds",
     ],
+    level: 49,
   },
   {
     name: "Wealth",
     sockets: 3,
     itemType: "Body Armor",
-    runeOrder: "Lem + Ko + Tir",
+    runeOrder: ["Lem", "Ko", "Tir"],
     effects: [
       "300% Extra Gold From Monsters",
       "100% Better Chance Of Getting Magic Items",
       "+2 To Mana After Each Kill",
       "+10 To Dexterity",
     ],
+    level: 43,
   },
   {
     name: "White",
     sockets: 2,
     itemType: "Wand",
-    runeOrder: "Dol + Io",
+    runeOrder: ["Dol", "Io"],
     effects: [
       "Hit Causes Monster To Flee 25%",
       "+10 To Vitality",
@@ -382,12 +397,13 @@ const runewords = [
       "20% Faster Cast Rate",
       "+13 To Mana",
     ],
+    level: 35,
   },
   {
     name: "Zephyr",
     sockets: 2,
     itemType: "Missile Weapons",
-    runeOrder: "Ort + Eth",
+    runeOrder: ["Ort", "Eth"],
     effects: [
       "+33% Enhanced Damage",
       "+66 To Attack Rating",
@@ -398,5 +414,8 @@ const runewords = [
       "25% Increased Attack Speed",
       "7% Chance To Cast Level 1 Twister When Struck",
     ],
+    level: 21,
   },
 ];
+
+export default runewords;
