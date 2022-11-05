@@ -1,9 +1,11 @@
-export default [
+import { Runeword } from "../../types/runeword";
+
+const runewords: Array<Runeword> = [
   {
     name: "Beast",
     sockets: 5,
     itemType: "Axes/Scepters/Hammers",
-    runeOrder: "Ber + Tir + Um + Mal + Lum",
+    runeOrder: ["Ber", "Tir", "Um", "Mal", "Lum"],
     effects: [
       "Level 9 Fanaticism Aura When Equipped",
       "+40% Increased Attack Speed",
@@ -18,12 +20,13 @@ export default [
       "+2 To Mana After Each Kill",
       "Level 13 Summon Grizzly (5 Charges)",
     ],
+    level: 63,
   },
   {
     name: "Bramble",
     sockets: 4,
     itemType: "Body Armor",
-    runeOrder: "Ral + Ohm + Sur + Eth",
+    runeOrder: ["Ral", "Ohm", "Sur", "Eth"],
     effects: [
       "Level 15-21 Thorns Aura When Equipped (varies)",
       "+50% Faster Hit Recovery",
@@ -37,12 +40,13 @@ export default [
       "+13 Life After Each Kill",
       "Level 13 Spirit of Barbs (33 Charges)",
     ],
+    level: 61,
   },
   {
     name: "Breath of the Dying",
     sockets: 6,
     itemType: "Weapons",
-    runeOrder: "Vex + Hel + El + Eld + Zod + Eth",
+    runeOrder: ["Vex", "Hel", "El", "Eld", "Zod", "Eth"],
     effects: [
       "50% Chance To Cast Level 20 Poison Nova When You Kill An Enemy",
       "Indestructible",
@@ -59,12 +63,13 @@ export default [
       "+1 To Light Radius",
       "Requirements -20%",
     ],
+    level: 69,
   },
   {
     name: "Call To Arms*",
     sockets: 5,
     itemType: "Weapons",
-    runeOrder: "Amn + Ral + Mal + Ist + Ohm",
+    runeOrder: ["Amn", "Ral", "Mal", "Ist", "Ohm"],
     effects: [
       "+1 To All Skills",
       "+40% Increased Attack Speed",
@@ -78,12 +83,13 @@ export default [
       "Replenish Life +12",
       "30% Better Chance of Getting Magic Items",
     ],
+    level: 57,
   },
   {
     name: "Chains of Honor",
     sockets: 4,
     itemType: "Body Armor",
-    runeOrder: "Dol + Um + Ber + Ist",
+    runeOrder: ["Dol", "Um", "Ber", "Ist"],
     effects: [
       "+2 To All Skills",
       "+200% Damage To Demons",
@@ -96,12 +102,13 @@ export default [
       "Damage Reduced By 8%",
       "25% Better Chance of Getting Magic Items",
     ],
+    level: 63,
   },
   {
     name: "Chaos",
     sockets: 3,
     itemType: "Claws",
-    runeOrder: "Fal + Ohm + Um",
+    runeOrder: ["Fal", "Ohm", "Um"],
     effects: [
       "9% Chance To Cast Level 11 Frozen Orb On Striking",
       "11% Chance To Cast Level 9 Charged Bolt On Striking",
@@ -113,12 +120,13 @@ export default [
       "+10 To Strength",
       "+15 Life After Each Demon Kill",
     ],
+    level: 57,
   },
   {
     name: "Crescent Moon",
     sockets: 3,
     itemType: "Axes/Swords/Polearms",
-    runeOrder: "Shael + Um + Tir",
+    runeOrder: ["Shael", "Um", "Tir"],
     effects: [
       "10% Chance To Cast Level 17 Chain Lightning On Striking",
       "7% Chance To Cast Level 13 Static Field On Striking",
@@ -131,12 +139,13 @@ export default [
       "+2 To Mana After Each Kill",
       "Level 18 Summon Spirit Wolf (30 Charges)",
     ],
+    level: 47,
   },
   {
     name: "Delirium*",
     sockets: 3,
     itemType: "Helms",
-    runeOrder: "Lem + Ist + Io",
+    runeOrder: ["Lem", "Ist", "Io"],
     effects: [
       "1% Chance To Cast Level 50 Delirium* (morph) When Struck",
       "6% Chance To Cast Level 14 Mind Blast When Struck",
@@ -149,12 +158,13 @@ export default [
       "25% Better Chance of Getting Magic Items",
       "Level 17 Attract (60 Charges)",
     ],
+    level: 51,
   },
   {
     name: "Doom",
     sockets: 5,
     itemType: "Axes/Polearms/Hammers",
-    runeOrder: "Hel + Ohm + Um + Lo + Cham",
+    runeOrder: ["Hel", "Ohm", "Um", "Lo", "Cham"],
     effects: [
       "5% Chance To Cast Level 18 Volcano On Striking",
       "Level 12 Holy Freeze Aura When Equipped",
@@ -168,12 +178,13 @@ export default [
       "Freezes Target +3",
       "Requirements -20%",
     ],
+    level: 67,
   },
   {
     name: "Duress",
     sockets: 3,
     itemType: "Body Armor",
-    runeOrder: "Shael + Um + Thul",
+    runeOrder: ["Shael", "Um", "Thul"],
     effects: [
       "+40% Faster Hit Recovery",
       "+10-20% Enhanced Damage (varies)",
@@ -187,12 +198,13 @@ export default [
       "Fire Resist +15%",
       "Poison Resist +15%",
     ],
+    level: 47,
   },
   {
     name: "Enigma",
     sockets: 3,
     itemType: "Body Armor",
-    runeOrder: "Jah + Ith + Ber",
+    runeOrder: ["Jah", "Ith", "Ber"],
     effects: [
       "+2 To All Skills",
       "+45% Faster Run/Walk",
@@ -205,12 +217,13 @@ export default [
       "15% Damage Taken Goes To Mana",
       "+ (1 Per Character Level) +1-99% Better Chance of Getting Magic Items (Based On Character Level)",
     ],
+    level: 65,
   },
   {
     name: "Eternity",
     sockets: 5,
     itemType: "Melee Weapons",
-    runeOrder: "Amn + Ber + Ist + Sol + Sur",
+    runeOrder: ["Amn", "Ber", "Ist", "Sol", "Sur"],
     effects: [
       "Indestructible",
       "+260-310% Enhanced Damage (varies)",
@@ -225,12 +238,13 @@ export default [
       "30% Better Chance Of Getting Magic Items",
       "Level 8 Revive (88 Charges)",
     ],
+    level: 63,
   },
   {
     name: "Exile",
     sockets: 4,
     itemType: "Paladin Shields (only)",
-    runeOrder: "Vex + Ohm + Ist + Dol",
+    runeOrder: ["Vex", "Ohm", "Ist", "Dol"],
     effects: [
       "15% Chance To Cast Level 5 Life Tap On Striking",
       "Level 13-16 Defiance Aura When Equipped (varies)",
@@ -244,12 +258,13 @@ export default [
       "25% Better Chance Of Getting Magic Items",
       "Repairs 1 Durability in 4 Seconds",
     ],
+    level: 57,
   },
   {
     name: "Famine",
     sockets: 4,
     itemType: "Axes/Hammers",
-    runeOrder: "Fal + Ohm + Ort + Jah",
+    runeOrder: ["Fal", "Ohm", "Ort", "Jah"],
     effects: [
       "+30% Increased Attack Speed",
       "+320-370% Enhanced Damage (varies)",
@@ -262,12 +277,13 @@ export default [
       "Prevent Monster Heal",
       "+10 To Strength",
     ],
+    level: 65,
   },
   {
     name: "Gloom",
     sockets: 3,
     itemType: "Body Armor",
-    runeOrder: "Fal + Um + Pul",
+    runeOrder: ["Fal", "Um", "Pul"],
     effects: [
       "15% Chance To Cast Level 3 Dim Vision When Struck",
       "+10% Faster Hit Recovery",
@@ -278,12 +294,13 @@ export default [
       "5% Damage Taken Goes To Mana",
       "-3 To Light Radius",
     ],
+    level: 47,
   },
   {
     name: "Hand of Justice*",
     sockets: 4,
     itemType: "Weapons",
-    runeOrder: "Sur + Cham + Amn + Lo",
+    runeOrder: ["Sur", "Cham", "Amn", "Lo"],
     effects: [
       "100% Chance To Cast Level 36 Blaze When You Level-Up",
       "100% Chance To Cast Level 48 Meteor When You Die",
@@ -297,12 +314,13 @@ export default [
       "Hit Blinds Target",
       "Freezes Target +3",
     ],
+    level: 67,
   },
   {
     name: "Heart of the Oak",
     sockets: 4,
     itemType: "Staves/Maces*",
-    runeOrder: "Ko + Vex + Pul + Thul",
+    runeOrder: ["Ko", "Vex", "Pul", "Thul"],
     effects: [
       "+3 To All Skills",
       "+40% Faster Cast Rate",
@@ -317,12 +335,13 @@ export default [
       "Level 4 Oak Sage (25 Charges)",
       "Level 14 Raven (60 Charges)",
     ],
+    level: 55,
   },
   {
     name: "Kingslayer",
     sockets: 4,
     itemType: "Swords/Axes",
-    runeOrder: "Mal + Um + Gul + Fal",
+    runeOrder: ["Mal", "Um", "Gul", "Fal"],
     effects: [
       "+30% Increased Attack Speed",
       "+230-270% Enhanced Damage (varies)",
@@ -335,12 +354,13 @@ export default [
       "+10 To Strength",
       "40% Extra Gold From Monsters",
     ],
+    level: 53,
   },
   {
     name: "Passion",
     sockets: 4,
     itemType: "Weapons",
-    runeOrder: "Dol + Ort + Eld + Lem",
+    runeOrder: ["Dol", "Ort", "Eld", "Lem"],
     effects: [
       "+25% Increased Attack Speed",
       "+160-210% Enhanced Damage (varies)",
@@ -355,12 +375,13 @@ export default [
       "75% Extra Gold From Monsters",
       "Level 3 Heart of Wolverine (12 Charges)",
     ],
+    level: 43,
   },
   {
     name: "Prudence",
     sockets: 2,
     itemType: "Body Armor",
-    runeOrder: "Mal + Tir",
+    runeOrder: ["Mal", "Tir"],
     effects: [
       "+25% Faster Hit Recovery",
       "+140-170% Enhanced Defense (varies)",
@@ -371,12 +392,13 @@ export default [
       "+1 To Light Radius",
       "Repairs Durability 1 In 4 Seconds",
     ],
+    level: 49,
   },
   {
     name: "Sanctuary",
     sockets: 3,
     itemType: "Shields",
-    runeOrder: "Ko + Ko + Mal",
+    runeOrder: ["Ko", "Ko", "Mal"],
     effects: [
       "+20% Faster Hit Recovery",
       "+20% Faster Block Rate",
@@ -388,12 +410,13 @@ export default [
       "Magic Damage Reduced By 7",
       "Level 12 Slow Missiles (60 Charges)",
     ],
+    level: 49,
   },
   {
     name: "Splendor",
     sockets: 2,
     itemType: "Shields",
-    runeOrder: "Eth + Lum",
+    runeOrder: ["Eth", "Lum"],
     effects: [
       "+1 To All Skills",
       "+10% Faster Cast Rate",
@@ -405,12 +428,13 @@ export default [
       "20% Better Chance of Getting Magic Items",
       "+3 To Light Radius",
     ],
+    level: 37,
   },
   {
     name: "Stone",
     sockets: 4,
     itemType: "Body Armor",
-    runeOrder: "Shael + Um + Pul + Lum",
+    runeOrder: ["Shael", "Um", "Pul", "Lum"],
     effects: [
       "+60% Faster Hit Recovery",
       "+250-290% Enhanced Defense (varies)",
@@ -422,12 +446,13 @@ export default [
       "Level 16 Molten Boulder (80 Charges)",
       "Level 16 Clay Golem (16 Charges)",
     ],
+    level: 47,
   },
   {
     name: "Wind",
     sockets: 2,
     itemType: "Melee Weapons",
-    runeOrder: "Sur + El",
+    runeOrder: ["Sur", "El"],
     effects: [
       "10% Chance To Cast Level 9 Tornado On Striking",
       "+20% Faster Run/Walk",
@@ -440,5 +465,8 @@ export default [
       "+1 To Light Radius",
       "Level 13 Twister (127 Charges)",
     ],
+    level: 61,
   },
 ];
+
+export default runewords;
