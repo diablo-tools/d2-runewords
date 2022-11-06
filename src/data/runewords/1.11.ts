@@ -1,4 +1,6 @@
-const runewords = [
+import { Runeword } from "../../types/runeword";
+
+const runewords: Array<Runeword> = [
   {
     name: "Bone (Necromancer)",
     sockets: 3,
