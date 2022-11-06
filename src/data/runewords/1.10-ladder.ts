@@ -1,9 +1,11 @@
-const runewords = [
+import { Runeword } from "../../types/runeword";
+
+const runewords: Array<Runeword> = [
   {
     name: "Brand",
     sockets: 4,
     itemType: "Missile Weapons",
-    runeOrder: "Jah + Lo + Mal + Gul",
+    runeOrder: ["Jah", "Lo", "Mal", "Gul"],
     effects: [
       "35% Chance To Cast Level 14 Amplify Damage When Struck",
       "100% Chance To Cast Level 18 Bone Spear On Striking",
@@ -17,12 +19,13 @@ const runewords = [
       "Fires Explosive Arrows or Bolts (15)",
     ],
     ladderOnly: true,
+    level: 65,
   },
   {
     name: "Death",
     sockets: 5,
     itemType: "Swords/Axes",
-    runeOrder: "Hel + El + Vex + Ort + Gul",
+    runeOrder: ["Hel", "El", "Vex", "Ort", "Gul"],
     effects: [
       "100% Chance To Cast Level 44 Chain Lightning When You Die",
       "25% Chance To Cast Level 18 Glacial Spike On Attack",
@@ -39,12 +42,13 @@ const runewords = [
       "Requirements -20%",
     ],
     ladderOnly: true,
+    level: 55,
   },
   {
     name: "Destruction",
     sockets: 5,
     itemType: "Polearms/Swords",
-    runeOrder: "Vex + Lo + Ber + Jah + Ko",
+    runeOrder: ["Vex", "Lo", "Ber", "Jah", "Ko"],
     effects: [
       "23% Chance To Cast Level 12 Volcano On Striking",
       "5% Chance To Cast Level 23 Molten Boulder On Striking",
@@ -60,12 +64,13 @@ const runewords = [
       "+10 To Dexterity",
     ],
     ladderOnly: true,
+    level: 65,
   },
   {
     name: "Dragon",
     sockets: 3,
     itemType: "Body Armor/Shields",
-    runeOrder: "Sur + Lo + Sol",
+    runeOrder: ["Sur", "Lo", "Sol"],
     effects: [
       "20% Chance to Cast Level 18 Venom When Struck",
       "12% Chance To Cast Level 15 Hydra On Striking",
@@ -80,12 +85,13 @@ const runewords = [
       "Damage Reduced by 7",
     ],
     ladderOnly: true,
+    level: 61,
   },
   {
     name: "Dream",
     sockets: 3,
     itemType: "Helms/Shields",
-    runeOrder: "Io + Jah + Pul",
+    runeOrder: ["Io", "Jah", "Pul"],
     effects: [
       "10% Chance To Cast Level 15 Confuse When Struck",
       "Level 15 Holy Shock Aura When Equipped",
@@ -100,12 +106,13 @@ const runewords = [
       "12-25% Better Chance of Getting Magic Items (varies)",
     ],
     ladderOnly: true,
+    level: 65,
   },
   {
     name: "Edge",
     sockets: 3,
     itemType: "Missile Weapons",
-    runeOrder: "Tir + Tal + Amn",
+    runeOrder: ["Tir", "Tal", "Amn"],
     effects: [
       "Level 15 Thorns Aura When Equipped",
       "+35% Increased Attack Speed",
@@ -119,12 +126,13 @@ const runewords = [
       "Reduces All Vendor Prices 15%!!!*",
     ],
     ladderOnly: true,
+    level: 25,
   },
   {
     name: "Faith",
     sockets: 4,
     itemType: "Missile Weapons",
-    runeOrder: "Ohm + Jah + Lem + Eld",
+    runeOrder: ["Ohm", "Jah", "Lem", "Eld"],
     effects: [
       "Level 12-15 Fanaticism Aura When Equipped (varies)",
       "+1-2 To All Skills (varies)",
@@ -139,12 +147,13 @@ const runewords = [
       "75% Extra Gold From Monsters",
     ],
     ladderOnly: true,
+    level: 65,
   },
   {
     name: "Fortitude",
     sockets: 4,
     itemType: "Weapons/Body Armor",
-    runeOrder: "El + Sol + Dol + Lo",
+    runeOrder: ["El", "Sol", "Dol", "Lo"],
     effects: [
       "Weapons",
       "20% Chance To Cast Level 15 Chilling Armor when Struck",
@@ -175,12 +184,13 @@ const runewords = [
       "+1 To Light Radius",
     ],
     ladderOnly: true,
+    level: 59,
   },
   {
     name: "Grief",
     sockets: 5,
     itemType: "Swords/Axes",
-    runeOrder: "Eth + Tir + Lo + Mal + Ral",
+    runeOrder: ["Eth", "Tir", "Lo", "Mal", "Ral"],
     effects: [
       "35% Chance To Cast Level 15 Venom On Striking",
       "+30-40% Increased Attack Speed (varies)",
@@ -196,12 +206,13 @@ const runewords = [
       "+10-15 Life After Each Kill (varies)",
     ],
     ladderOnly: true,
+    level: 59,
   },
   {
     name: "Harmony",
     sockets: 4,
     itemType: "Missile Weapons",
-    runeOrder: "Tir + Ith + Sol + Ko",
+    runeOrder: ["Tir", "Ith", "Sol", "Ko"],
     effects: [
       "Level 10 Vigor Aura When Equipped",
       "+200-275% Enhanced Damage (varies)",
@@ -218,12 +229,13 @@ const runewords = [
       "Level 20 Revive (25 Charges)",
     ],
     ladderOnly: true,
+    level: 39,
   },
   {
     name: "Ice",
     sockets: 4,
     itemType: "Missile Weapons",
-    runeOrder: "Amn + Shael + Jah + Lo",
+    runeOrder: ["Amn", "Shael", "Jah", "Lo"],
     effects: [
       "100% Chance To Cast Level 40 Blizzard When You Level-up",
       "25% Chance To Cast Level 22 Frost Nova On Striking",
@@ -238,12 +250,13 @@ const runewords = [
       "3.125-309.375 Extra Gold From Monsters (Based on Character Level)",
     ],
     ladderOnly: true,
+    level: 65,
   },
   {
     name: "Infinity",
     sockets: 4,
     itemType: "Polearms",
-    runeOrder: "Ber + Mal + Ber + Ist",
+    runeOrder: ["Ber", "Mal", "Ber", "Ist"],
     effects: [
       "50% Chance To Cast Level 20 Chain Lightning When You Kill An Enemy",
       "Level 12 Conviction Aura When Equipped",
@@ -257,12 +270,13 @@ const runewords = [
       "Level 21 Cyclone Armor (30 Charges)",
     ],
     ladderOnly: true,
+    level: 63,
   },
   {
     name: "Insight",
     sockets: 4,
     itemType: "Polearms/Staves",
-    runeOrder: "Ral + Tir + Tal + Sol",
+    runeOrder: ["Ral", "Tir", "Tal", "Sol"],
     effects: [
       "Level 12-17 Meditation Aura When Equipped (varies)",
       "+35% Faster Cast Rate",
@@ -277,12 +291,13 @@ const runewords = [
       "23% Better Chance of Getting Magic Items",
     ],
     ladderOnly: true,
+    level: 27,
   },
   {
     name: "Last Wish",
     sockets: 6,
     itemType: "Swords/Hammers/Axes",
-    runeOrder: "Jah + Mal + Jah + Sur + Jah + Ber",
+    runeOrder: ["Jah", "Mal", "Jah", "Sur", "Jah", "Ber"],
     effects: [
       "6% Chance To Cast Level 11 Fade When Struck",
       "10% Chance To Cast Level 18 Life Tap On Striking",
@@ -296,12 +311,13 @@ const runewords = [
       "+(0.5 per character level) 0.5-49.5% Chance of Getting Magic Items (Based on Character Level)",
     ],
     ladderOnly: true,
+    level: 65,
   },
   {
     name: "Lawbringer",
     sockets: 3,
     itemType: "Swords/Hammers/Scepters",
-    runeOrder: "Amn + Lem + Ko",
+    runeOrder: ["Amn", "Lem", "Ko"],
     effects: [
       "20% Chance To Cast Level 15 Decrepify On Striking",
       "Level 16-18 Sanctuary Aura When Equipped (varies)",
@@ -315,12 +331,13 @@ const runewords = [
       "75% Extra Gold From Monsters",
     ],
     ladderOnly: true,
+    level: 43,
   },
   {
     name: "Oath",
     sockets: 4,
     itemType: "Swords/Axes/Maces",
-    runeOrder: "Shael + Pul + Mal + Lum",
+    runeOrder: ["Shael", "Pul", "Mal", "Lum"],
     effects: [
       "30% Chance To Cast Level 20 Bone Spirit On Striking",
       "Indestructible",
@@ -335,12 +352,13 @@ const runewords = [
       "Level 17 Iron Golem (14 Charges)",
     ],
     ladderOnly: true,
+    level: 49,
   },
   {
     name: "Obedience",
     sockets: 5,
     itemType: "Polearms",
-    runeOrder: "Hel + Ko + Thul + Eth + Fal",
+    runeOrder: ["Hel", "Ko", "Thul", "Eth", "Fal"],
     effects: [
       "30% Chance To Cast Level 21 Enchant When You Kill An Enemy",
       "40% Faster Hit Recovery",
@@ -356,12 +374,13 @@ const runewords = [
       "Requirements -20%",
     ],
     ladderOnly: true,
+    level: 41,
   },
   {
     name: "Phoenix",
     sockets: 4,
     itemType: "Weapons/Shields",
-    runeOrder: "Vex + Vex + Lo + Jah",
+    runeOrder: ["Vex", "Vex", "Lo", "Jah"],
     effects: [
       "Weapons",
       "100% Chance To Cast level 40 Blaze When You Level-up",
@@ -388,12 +407,13 @@ const runewords = [
       "+15-21 Fire Absorb (varies)",
     ],
     ladderOnly: true,
+    level: 65,
   },
   {
     name: "Pride",
     sockets: 4,
     itemType: "Polearms",
-    runeOrder: "Cham + Sur + Io + Lo",
+    runeOrder: ["Cham", "Sur", "Io", "Lo"],
     effects: [
       "25% Chance To Cast Level 17 Fire Wall When Struck",
       "Level 16-20 Concentration Aura When Equipped (varies)",
@@ -408,12 +428,13 @@ const runewords = [
       "1.875-185.625% Extra Gold From Monsters (Based on Character Level)",
     ],
     ladderOnly: true,
+    level: 67,
   },
   {
     name: "Rift",
     sockets: 4,
     itemType: "Polearms/Scepters",
-    runeOrder: "Hel + Ko + Lem + Gul",
+    runeOrder: ["Hel", "Ko", "Lem", "Gul"],
     effects: [
       "20% Chance To Cast Level 16 Tornado On Striking",
       "16% Chance To Cast Level 21 Frozen Orb On Attack",
@@ -428,12 +449,13 @@ const runewords = [
       "Requirements -20%",
     ],
     ladderOnly: true,
+    level: 53,
   },
   {
     name: "Spirit",
     sockets: 4,
     itemType: "Swords/Shields",
-    runeOrder: "Tal + Thul + Ort + Amn",
+    runeOrder: ["Tal", "Thul", "Ort", "Amn"],
     effects: [
       "Weapons",
       "+2 To All Skills",
@@ -462,12 +484,13 @@ const runewords = [
       "Attacker Takes Damage of 14",
     ],
     ladderOnly: true,
+    level: 25,
   },
   {
     name: "Voice of Reason",
     sockets: 4,
     itemType: "Swords/Maces",
-    runeOrder: "Lem + Ko + El + Eld",
+    runeOrder: ["Lem", "Ko", "El", "Eld"],
     effects: [
       "15% Chance To Cast Level 13 Frozen Orb On Striking",
       "18% Chance To Cast Level 20 Ice Blast On Striking",
@@ -483,12 +506,13 @@ const runewords = [
       "+1 To Light Radius",
     ],
     ladderOnly: true,
+    level: 43,
   },
   {
     name: "Wrath",
     sockets: 4,
     itemType: "Missile Weapons",
-    runeOrder: "Pul + Lum + Ber + Mal",
+    runeOrder: ["Pul", "Lum", "Ber", "Mal"],
     effects: [
       "30% Chance To Cast Level 1 Decrepify On Striking",
       "5% Chance To Cast Level 10 Life Tap On Striking",
@@ -503,6 +527,7 @@ const runewords = [
       "Cannot Be Frozen",
     ],
     ladderOnly: true,
+    level: 63,
   },
 ];
 
