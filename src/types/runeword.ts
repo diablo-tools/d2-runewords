@@ -4,13 +4,12 @@ import { RuneName } from "./rune";
 
 export type Runeword = {
   name: string;
-  numberOfSockets: number;
+  sockets: number;
   itemType: ItemType;
   runeOrder: Array<RuneName>;
   effects: Array<ItemEffect>;
   level: number;
-  requiredClass: CharacterClass | null;
-  ladderOnly: boolean;
-  inDiablo2: boolean;
-  inDiablo2Resurrected: boolean;
+  requiredClass?: CharacterClass;
+  ladderOnly?: boolean;
+  diablo2ResurrectedOnly?: boolean;
 };

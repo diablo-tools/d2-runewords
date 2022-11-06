@@ -1,6 +1,6 @@
 {
   "name": "@diablo-tools/d2-runewords",
-  "version": "1.0.0-beta.2",
+  "version": "1.0.0-beta.3",
   "description": "A small data package with rune/runeword information for Diablo 2",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -9,7 +9,8 @@
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0",
-    "build": "npx tsc"
+    "build": "npx tsc",
+    "prerelease": "npm version prerelease --preid=beta"
   },
   "repository": {
     "type": "git",
