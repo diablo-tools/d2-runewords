@@ -3,7 +3,7 @@ const runewords = [
     name: "Bone (Necromancer)",
     sockets: 3,
     itemType: "Body Armor",
-    runeOrder: "Sol + Um + Um",
+    runeOrder: ["Sol", "Um", "Um"],
     effects: [
       "15% Chance To Cast level 10 Bone Armor When Struck",
       "15% Chance To Cast level 10 Bone Spear On Striking",
@@ -12,12 +12,13 @@ const runewords = [
       "All Resistances +30",
       "Damage Reduced By 7",
     ],
+    level: 47,
   },
   {
     name: "Enlightenment (Sorceress)",
     sockets: 3,
     itemType: "Body Armor",
-    runeOrder: "Pul + Ral + Sol",
+    runeOrder: ["Pul", "Ral", "Sol"],
     effects: [
       "5% Chance To Cast Level 15 Blaze When Struck",
       "5% Chance To Cast level 15 Fire Ball On Striking",
@@ -27,12 +28,13 @@ const runewords = [
       "Fire Resist +30%",
       "Damage Reduced By 7",
     ],
+    level: 45,
   },
   {
     name: "Myth (Barbarian)",
     sockets: 3,
     itemType: "Body Armor",
-    runeOrder: "Hel + Amn + Nef",
+    runeOrder: ["Hel", "Amn", "Nef"],
     effects: [
       "3% Chance To Cast Level 1 Howl When Struck",
       "10% Chance To Cast Level 1 Taunt On Striking",
@@ -42,12 +44,13 @@ const runewords = [
       "Attacker Takes Damage of 14",
       "Requirements -15%",
     ],
+    level: 25,
   },
   {
     name: "Peace (Amazon)",
     sockets: 3,
     itemType: "Body Armor",
-    runeOrder: "Shael + Thul + Amn",
+    runeOrder: ["Shael", "Thul", "Amn"],
     effects: [
       "4% Chance To Cast Level 5 Slow Missiles When Struck",
       "2% Chance To Cast level 15 Valkyrie On Striking",
@@ -57,12 +60,13 @@ const runewords = [
       "Cold Resist +30%",
       "Attacker Takes Damage of 14",
     ],
+    level: 29,
   },
   {
     name: "Principle (Paladin)",
     sockets: 3,
     itemType: "Body Armor",
-    runeOrder: "Ral + Gul + Eld",
+    runeOrder: ["Ral", "Gul", "Eld"],
     effects: [
       "100% Chance To Cast Level 5 Holy Bolt On Striking",
       "+2 To Paladin Skill Levels",
@@ -72,12 +76,13 @@ const runewords = [
       "+5% To Maximum Poison Resist",
       "Fire Resist +30%",
     ],
+    level: 53,
   },
   {
     name: "Rain (Druid)",
     sockets: 3,
     itemType: "Body Armor",
-    runeOrder: "Ort + Mal + Ith",
+    runeOrder: ["Ort", "Mal", "Ith"],
     effects: [
       "5% Chance To Cast Level 15 Cyclone Armor When Struck",
       "5% Chance To Cast Level 15 Twister On Striking",
@@ -87,12 +92,13 @@ const runewords = [
       "Magic Damage Reduced By 7",
       "15% Damage Taken Goes to Mana",
     ],
+    level: 49,
   },
   {
     name: "Treachery (Assassin)",
     sockets: 3,
     itemType: "Body Armor",
-    runeOrder: "Shael + Thul + Lem",
+    runeOrder: ["Shael", "Thul", "Lem"],
     effects: [
       "5% Chance To Cast Level 15 Fade When Struck",
       "25% Chance To Cast level 15 Venom On Striking",
@@ -102,6 +108,7 @@ const runewords = [
       "Cold Resist +30%",
       "50% Extra Gold From Monsters",
     ],
+    level: 43,
   },
 ];
 
