@@ -3,7 +3,7 @@ const runewords = [
     name: "Plague",
     sockets: 3,
     itemType: "Swords",
-    runeOrder: "Cham + Shael + Um",
+    runeOrder: ["Cham", "Shael", "Um"],
     effects: [
       "20% Chance to cast level 12 Lower Resist when struck",
       "25% Chance to cast level 15 Poison Nova on striking",
@@ -16,12 +16,14 @@ const runewords = [
       "+25% Chance of Open Wounds",
       "Freezes Target +3",
     ],
+    level: 67,
+    diablo2ResurrectedOnly: true,
   },
   {
     name: "Pattern",
     sockets: 3,
     itemType: "Claws",
-    runeOrder: "Tal + Ort + Thul",
+    runeOrder: ["Tal", "Ort", "Thul"],
     effects: [
       "+30% Faster Block Rate",
       "+40-80% Enhanced Damage (varies)",
@@ -34,12 +36,14 @@ const runewords = [
       "+6 to Dexterity",
       "All Resistances +15",
     ],
+    level: 23,
+    diablo2ResurrectedOnly: true,
   },
   {
     name: "Unbending Will",
     sockets: 6,
     itemType: "Swords",
-    runeOrder: "Fal + Io + Ith + Eld + El + Hel",
+    runeOrder: ["Fal", "Io", "Ith", "Eld", "El", "Hel"],
     effects: [
       "18% Chance to cast Level 18 Taunt on striking",
       "+3 To Combat Skills (Barbarian Only)",
@@ -57,12 +61,14 @@ const runewords = [
       "+1 Light Radius",
       "Requirements -20%",
     ],
+    level: 41,
+    diablo2ResurrectedOnly: true,
   },
   {
     name: "Wisdom",
     sockets: 3,
     itemType: "Helms",
-    runeOrder: "Pul + Ith + Eld",
+    runeOrder: ["Pul", "Ith", "Eld"],
     effects: [
       "+33% Piercing Attack",
       "+15-25% Bonus to Attack Rating (varies)",
@@ -74,12 +80,14 @@ const runewords = [
       "+5 Mana After Each Kill",
       "15% Damage Taken Goes to Mana",
     ],
+    level: 45,
+    diablo2ResurrectedOnly: true,
   },
   {
     name: "Obsession",
     sockets: 6,
     itemType: "Staves",
-    runeOrder: "Zod + Ist + Lem + Lum + Io + Nef",
+    runeOrder: ["Zod", "Ist", "Lem", "Lum", "Io", "Nef"],
     effects: [
       "Indestructible",
       "24% Chance to cast level 10 Weaken when struck",
@@ -95,12 +103,14 @@ const runewords = [
       "75% Extra Gold from Monsters",
       "30% Better Chance of Getting Magic Items",
     ],
+    level: 69,
+    diablo2ResurrectedOnly: true,
   },
   {
     name: "Flickering Flame",
     sockets: 3,
     itemType: "Helms",
-    runeOrder: "Nef + Pul + Vex",
+    runeOrder: ["Nef", "Pul", "Vex"],
     effects: [
       "Level 4-8 Resist Fire Aura When Equipped (varies)",
       "+3 To Fire Skills",
@@ -112,12 +122,14 @@ const runewords = [
       "+5% To Maximum Fire Resist",
       "Poison Length Reduced by 50%",
     ],
+    level: 55,
+    diablo2ResurrectedOnly: true,
   },
   {
     name: "Mist",
     sockets: 5,
     itemType: "Bows/Crossbows/Missile Weapons",
-    runeOrder: "Cham + Shael + Gul + Thul + Ith",
+    runeOrder: ["Cham", "Shael", "Gul", "Thul", "Ith"],
     effects: [
       "Level 8-12 Concentration Aura When Equipped (varies)",
       "+3 To All Skills",
@@ -131,6 +143,8 @@ const runewords = [
       "+24 Vitality",
       "All Resistances +40",
     ],
+    level: 67,
+    diablo2ResurrectedOnly: true,
   },
 ];
 
