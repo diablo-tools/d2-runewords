@@ -4,7 +4,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Beast",
     sockets: 5,
-    itemType: "Axes/Scepters/Hammers",
+    itemType: ["Axes", "Scepters", "Hammers"],
     runeOrder: ["Ber", "Tir", "Um", "Mal", "Lum"],
     effects: [
       "Level 9 Fanaticism Aura When Equipped",
@@ -25,7 +25,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Bramble",
     sockets: 4,
-    itemType: "Body Armor",
+    itemType: ["Body Armor"],
     runeOrder: ["Ral", "Ohm", "Sur", "Eth"],
     effects: [
       "Level 15-21 Thorns Aura When Equipped (varies)",
@@ -45,7 +45,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Breath of the Dying",
     sockets: 6,
-    itemType: "Weapons",
+    itemType: ["Weapons"],
     runeOrder: ["Vex", "Hel", "El", "Eld", "Zod", "Eth"],
     effects: [
       "50% Chance To Cast Level 20 Poison Nova When You Kill An Enemy",
@@ -68,7 +68,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Call To Arms*",
     sockets: 5,
-    itemType: "Weapons",
+    itemType: ["Weapons"],
     runeOrder: ["Amn", "Ral", "Mal", "Ist", "Ohm"],
     effects: [
       "+1 To All Skills",
@@ -88,7 +88,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Chains of Honor",
     sockets: 4,
-    itemType: "Body Armor",
+    itemType: ["Body Armor"],
     runeOrder: ["Dol", "Um", "Ber", "Ist"],
     effects: [
       "+2 To All Skills",
@@ -107,7 +107,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Chaos",
     sockets: 3,
-    itemType: "Claws",
+    itemType: ["Claws"],
     runeOrder: ["Fal", "Ohm", "Um"],
     effects: [
       "9% Chance To Cast Level 11 Frozen Orb On Striking",
@@ -125,7 +125,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Crescent Moon",
     sockets: 3,
-    itemType: "Axes/Swords/Polearms",
+    itemType: ["Axes", "Swords", "Polearms"],
     runeOrder: ["Shael", "Um", "Tir"],
     effects: [
       "10% Chance To Cast Level 17 Chain Lightning On Striking",
@@ -144,7 +144,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Delirium*",
     sockets: 3,
-    itemType: "Helms",
+    itemType: ["Helms"],
     runeOrder: ["Lem", "Ist", "Io"],
     effects: [
       "1% Chance To Cast Level 50 Delirium* (morph) When Struck",
@@ -163,7 +163,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Doom",
     sockets: 5,
-    itemType: "Axes/Polearms/Hammers",
+    itemType: ["Axes", "Polearms", "Hammers"],
     runeOrder: ["Hel", "Ohm", "Um", "Lo", "Cham"],
     effects: [
       "5% Chance To Cast Level 18 Volcano On Striking",
@@ -183,7 +183,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Duress",
     sockets: 3,
-    itemType: "Body Armor",
+    itemType: ["Body Armor"],
     runeOrder: ["Shael", "Um", "Thul"],
     effects: [
       "+40% Faster Hit Recovery",
@@ -203,7 +203,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Enigma",
     sockets: 3,
-    itemType: "Body Armor",
+    itemType: ["Body Armor"],
     runeOrder: ["Jah", "Ith", "Ber"],
     effects: [
       "+2 To All Skills",
@@ -222,7 +222,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Eternity",
     sockets: 5,
-    itemType: "Melee Weapons",
+    itemType: ["Melee Weapons"],
     runeOrder: ["Amn", "Ber", "Ist", "Sol", "Sur"],
     effects: [
       "Indestructible",
@@ -243,7 +243,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Exile",
     sockets: 4,
-    itemType: "Paladin Shields (only)",
+    itemType: ["Paladin Shields (only)"],
     runeOrder: ["Vex", "Ohm", "Ist", "Dol"],
     effects: [
       "15% Chance To Cast Level 5 Life Tap On Striking",
@@ -263,7 +263,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Famine",
     sockets: 4,
-    itemType: "Axes/Hammers",
+    itemType: ["Axes", "Hammers"],
     runeOrder: ["Fal", "Ohm", "Ort", "Jah"],
     effects: [
       "+30% Increased Attack Speed",
@@ -282,7 +282,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Gloom",
     sockets: 3,
-    itemType: "Body Armor",
+    itemType: ["Body Armor"],
     runeOrder: ["Fal", "Um", "Pul"],
     effects: [
       "15% Chance To Cast Level 3 Dim Vision When Struck",
@@ -299,7 +299,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Hand of Justice*",
     sockets: 4,
-    itemType: "Weapons",
+    itemType: ["Weapons"],
     runeOrder: ["Sur", "Cham", "Amn", "Lo"],
     effects: [
       "100% Chance To Cast Level 36 Blaze When You Level-Up",
@@ -319,7 +319,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Heart of the Oak",
     sockets: 4,
-    itemType: "Staves/Maces*",
+    itemType: ["Staves (Not Orbs)", "Maces"],
     runeOrder: ["Ko", "Vex", "Pul", "Thul"],
     effects: [
       "+3 To All Skills",
@@ -340,7 +340,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Kingslayer",
     sockets: 4,
-    itemType: "Swords/Axes",
+    itemType: ["Swords", "Axes"],
     runeOrder: ["Mal", "Um", "Gul", "Fal"],
     effects: [
       "+30% Increased Attack Speed",
@@ -359,7 +359,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Passion",
     sockets: 4,
-    itemType: "Weapons",
+    itemType: ["Weapons"],
     runeOrder: ["Dol", "Ort", "Eld", "Lem"],
     effects: [
       "+25% Increased Attack Speed",
@@ -380,7 +380,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Prudence",
     sockets: 2,
-    itemType: "Body Armor",
+    itemType: ["Body Armor"],
     runeOrder: ["Mal", "Tir"],
     effects: [
       "+25% Faster Hit Recovery",
@@ -397,7 +397,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Sanctuary",
     sockets: 3,
-    itemType: "Shields",
+    itemType: ["Shields"],
     runeOrder: ["Ko", "Ko", "Mal"],
     effects: [
       "+20% Faster Hit Recovery",
@@ -415,7 +415,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Splendor",
     sockets: 2,
-    itemType: "Shields",
+    itemType: ["Shields"],
     runeOrder: ["Eth", "Lum"],
     effects: [
       "+1 To All Skills",
@@ -433,7 +433,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Stone",
     sockets: 4,
-    itemType: "Body Armor",
+    itemType: ["Body Armor"],
     runeOrder: ["Shael", "Um", "Pul", "Lum"],
     effects: [
       "+60% Faster Hit Recovery",
@@ -451,7 +451,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Wind",
     sockets: 2,
-    itemType: "Melee Weapons",
+    itemType: ["Melee Weapons"],
     runeOrder: ["Sur", "El"],
     effects: [
       "10% Chance To Cast Level 9 Tornado On Striking",

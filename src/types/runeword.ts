@@ -5,7 +5,7 @@ import { RuneName } from "./rune";
 export type Runeword = {
   name: string;
   sockets: number;
-  itemType: ItemType;
+  itemType: ItemType[];
   runeOrder: Array<RuneName>;
   effects: Array<ItemEffect>;
   level: number;

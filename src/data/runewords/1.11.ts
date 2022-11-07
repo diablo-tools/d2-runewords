@@ -4,7 +4,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Bone (Necromancer)",
     sockets: 3,
-    itemType: "Body Armor",
+    itemType: ["Body Armor"],
     runeOrder: ["Sol", "Um", "Um"],
     effects: [
       "15% Chance To Cast level 10 Bone Armor When Struck",
@@ -19,7 +19,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Enlightenment (Sorceress)",
     sockets: 3,
-    itemType: "Body Armor",
+    itemType: ["Body Armor"],
     runeOrder: ["Pul", "Ral", "Sol"],
     effects: [
       "5% Chance To Cast Level 15 Blaze When Struck",
@@ -35,7 +35,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Myth (Barbarian)",
     sockets: 3,
-    itemType: "Body Armor",
+    itemType: ["Body Armor"],
     runeOrder: ["Hel", "Amn", "Nef"],
     effects: [
       "3% Chance To Cast Level 1 Howl When Struck",
@@ -51,7 +51,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Peace (Amazon)",
     sockets: 3,
-    itemType: "Body Armor",
+    itemType: ["Body Armor"],
     runeOrder: ["Shael", "Thul", "Amn"],
     effects: [
       "4% Chance To Cast Level 5 Slow Missiles When Struck",
@@ -67,7 +67,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Principle (Paladin)",
     sockets: 3,
-    itemType: "Body Armor",
+    itemType: ["Body Armor"],
     runeOrder: ["Ral", "Gul", "Eld"],
     effects: [
       "100% Chance To Cast Level 5 Holy Bolt On Striking",
@@ -83,7 +83,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Rain (Druid)",
     sockets: 3,
-    itemType: "Body Armor",
+    itemType: ["Body Armor"],
     runeOrder: ["Ort", "Mal", "Ith"],
     effects: [
       "5% Chance To Cast Level 15 Cyclone Armor When Struck",
@@ -99,7 +99,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Treachery (Assassin)",
     sockets: 3,
-    itemType: "Body Armor",
+    itemType: ["Body Armor"],
     runeOrder: ["Shael", "Thul", "Lem"],
     effects: [
       "5% Chance To Cast Level 15 Fade When Struck",

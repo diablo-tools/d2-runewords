@@ -4,7 +4,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Brand",
     sockets: 4,
-    itemType: "Missile Weapons",
+    itemType: ["Missile Weapons"],
     runeOrder: ["Jah", "Lo", "Mal", "Gul"],
     effects: [
       "35% Chance To Cast Level 14 Amplify Damage When Struck",
@@ -24,7 +24,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Death",
     sockets: 5,
-    itemType: "Swords/Axes",
+    itemType: ["Swords", "Axes"],
     runeOrder: ["Hel", "El", "Vex", "Ort", "Gul"],
     effects: [
       "100% Chance To Cast Level 44 Chain Lightning When You Die",
@@ -47,7 +47,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Destruction",
     sockets: 5,
-    itemType: "Polearms/Swords",
+    itemType: ["Polearms", "Swords"],
     runeOrder: ["Vex", "Lo", "Ber", "Jah", "Ko"],
     effects: [
       "23% Chance To Cast Level 12 Volcano On Striking",
@@ -69,7 +69,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Dragon",
     sockets: 3,
-    itemType: "Body Armor/Shields",
+    itemType: ["Body Armor", "Shields"],
     runeOrder: ["Sur", "Lo", "Sol"],
     effects: [
       "20% Chance to Cast Level 18 Venom When Struck",
@@ -90,7 +90,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Dream",
     sockets: 3,
-    itemType: "Helms/Shields",
+    itemType: ["Helms", "Shields"],
     runeOrder: ["Io", "Jah", "Pul"],
     effects: [
       "10% Chance To Cast Level 15 Confuse When Struck",
@@ -111,7 +111,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Edge",
     sockets: 3,
-    itemType: "Missile Weapons",
+    itemType: ["Missile Weapons"],
     runeOrder: ["Tir", "Tal", "Amn"],
     effects: [
       "Level 15 Thorns Aura When Equipped",
@@ -131,7 +131,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Faith",
     sockets: 4,
-    itemType: "Missile Weapons",
+    itemType: ["Missile Weapons"],
     runeOrder: ["Ohm", "Jah", "Lem", "Eld"],
     effects: [
       "Level 12-15 Fanaticism Aura When Equipped (varies)",
@@ -152,7 +152,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Fortitude",
     sockets: 4,
-    itemType: "Weapons/Body Armor",
+    itemType: ["Weapons", "Body Armor"],
     runeOrder: ["El", "Sol", "Dol", "Lo"],
     effects: [
       "Weapons",
@@ -189,7 +189,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Grief",
     sockets: 5,
-    itemType: "Swords/Axes",
+    itemType: ["Swords", "Axes"],
     runeOrder: ["Eth", "Tir", "Lo", "Mal", "Ral"],
     effects: [
       "35% Chance To Cast Level 15 Venom On Striking",
@@ -211,7 +211,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Harmony",
     sockets: 4,
-    itemType: "Missile Weapons",
+    itemType: ["Missile Weapons"],
     runeOrder: ["Tir", "Ith", "Sol", "Ko"],
     effects: [
       "Level 10 Vigor Aura When Equipped",
@@ -234,7 +234,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Ice",
     sockets: 4,
-    itemType: "Missile Weapons",
+    itemType: ["Missile Weapons"],
     runeOrder: ["Amn", "Shael", "Jah", "Lo"],
     effects: [
       "100% Chance To Cast Level 40 Blizzard When You Level-up",
@@ -255,7 +255,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Infinity",
     sockets: 4,
-    itemType: "Polearms",
+    itemType: ["Polearms"],
     runeOrder: ["Ber", "Mal", "Ber", "Ist"],
     effects: [
       "50% Chance To Cast Level 20 Chain Lightning When You Kill An Enemy",
@@ -275,7 +275,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Insight",
     sockets: 4,
-    itemType: "Polearms/Staves",
+    itemType: ["Polearms", "Staves (Not Orbs)"],
     runeOrder: ["Ral", "Tir", "Tal", "Sol"],
     effects: [
       "Level 12-17 Meditation Aura When Equipped (varies)",
@@ -296,7 +296,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Last Wish",
     sockets: 6,
-    itemType: "Swords/Hammers/Axes",
+    itemType: ["Swords", "Hammers", "Axes"],
     runeOrder: ["Jah", "Mal", "Jah", "Sur", "Jah", "Ber"],
     effects: [
       "6% Chance To Cast Level 11 Fade When Struck",
@@ -316,7 +316,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Lawbringer",
     sockets: 3,
-    itemType: "Swords/Hammers/Scepters",
+    itemType: ["Swords", "Hammers", "Scepters"],
     runeOrder: ["Amn", "Lem", "Ko"],
     effects: [
       "20% Chance To Cast Level 15 Decrepify On Striking",
@@ -336,7 +336,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Oath",
     sockets: 4,
-    itemType: "Swords/Axes/Maces",
+    itemType: ["Swords", "Axes", "Maces"],
     runeOrder: ["Shael", "Pul", "Mal", "Lum"],
     effects: [
       "30% Chance To Cast Level 20 Bone Spirit On Striking",
@@ -357,7 +357,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Obedience",
     sockets: 5,
-    itemType: "Polearms",
+    itemType: ["Polearms"],
     runeOrder: ["Hel", "Ko", "Thul", "Eth", "Fal"],
     effects: [
       "30% Chance To Cast Level 21 Enchant When You Kill An Enemy",
@@ -379,7 +379,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Phoenix",
     sockets: 4,
-    itemType: "Weapons/Shields",
+    itemType: ["Weapons", "Shields"],
     runeOrder: ["Vex", "Vex", "Lo", "Jah"],
     effects: [
       "Weapons",
@@ -412,7 +412,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Pride",
     sockets: 4,
-    itemType: "Polearms",
+    itemType: ["Polearms"],
     runeOrder: ["Cham", "Sur", "Io", "Lo"],
     effects: [
       "25% Chance To Cast Level 17 Fire Wall When Struck",
@@ -433,7 +433,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Rift",
     sockets: 4,
-    itemType: "Polearms/Scepters",
+    itemType: ["Polearms", "Scepters"],
     runeOrder: ["Hel", "Ko", "Lem", "Gul"],
     effects: [
       "20% Chance To Cast Level 16 Tornado On Striking",
@@ -454,7 +454,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Spirit",
     sockets: 4,
-    itemType: "Swords/Shields",
+    itemType: ["Swords", "Shields"],
     runeOrder: ["Tal", "Thul", "Ort", "Amn"],
     effects: [
       "Weapons",
@@ -489,7 +489,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Voice of Reason",
     sockets: 4,
-    itemType: "Swords/Maces",
+    itemType: ["Swords", "Maces"],
     runeOrder: ["Lem", "Ko", "El", "Eld"],
     effects: [
       "15% Chance To Cast Level 13 Frozen Orb On Striking",
@@ -511,7 +511,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Wrath",
     sockets: 4,
-    itemType: "Missile Weapons",
+    itemType: ["Missile Weapons"],
     runeOrder: ["Pul", "Lum", "Ber", "Mal"],
     effects: [
       "30% Chance To Cast Level 1 Decrepify On Striking",
