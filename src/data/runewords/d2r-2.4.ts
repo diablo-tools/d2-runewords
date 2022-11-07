@@ -4,7 +4,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Plague",
     sockets: 3,
-    itemType: "Swords",
+    itemType: ["Swords"],
     runeOrder: ["Cham", "Shael", "Um"],
     effects: [
       "20% Chance to cast level 12 Lower Resist when struck",
@@ -24,7 +24,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Pattern",
     sockets: 3,
-    itemType: "Claws",
+    itemType: ["Claws"],
     runeOrder: ["Tal", "Ort", "Thul"],
     effects: [
       "+30% Faster Block Rate",
@@ -44,7 +44,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Unbending Will",
     sockets: 6,
-    itemType: "Swords",
+    itemType: ["Swords"],
     runeOrder: ["Fal", "Io", "Ith", "Eld", "El", "Hel"],
     effects: [
       "18% Chance to cast Level 18 Taunt on striking",
@@ -69,7 +69,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Wisdom",
     sockets: 3,
-    itemType: "Helms",
+    itemType: ["Helms"],
     runeOrder: ["Pul", "Ith", "Eld"],
     effects: [
       "+33% Piercing Attack",
@@ -88,7 +88,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Obsession",
     sockets: 6,
-    itemType: "Staves",
+    itemType: ["Staves (Not Orbs)"],
     runeOrder: ["Zod", "Ist", "Lem", "Lum", "Io", "Nef"],
     effects: [
       "Indestructible",
@@ -111,7 +111,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Flickering Flame",
     sockets: 3,
-    itemType: "Helms",
+    itemType: ["Helms"],
     runeOrder: ["Nef", "Pul", "Vex"],
     effects: [
       "Level 4-8 Resist Fire Aura When Equipped (varies)",
@@ -130,7 +130,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Mist",
     sockets: 5,
-    itemType: "Bows/Crossbows/Missile Weapons",
+    itemType: ["Bows", "Crossbows", "Missile Weapons"],
     runeOrder: ["Cham", "Shael", "Gul", "Thul", "Ith"],
     effects: [
       "Level 8-12 Concentration Aura When Equipped (varies)",

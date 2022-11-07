@@ -4,7 +4,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Ancient's Pledge",
     sockets: 3,
-    itemType: "Shields",
+    itemType: ["Shields"],
     runeOrder: ["Ral", "Ort", "Tal"],
     effects: [
       "+50% Enhanced Defense",
@@ -19,7 +19,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Black",
     sockets: 3,
-    itemType: "Clubs/Hammers/Maces",
+    itemType: ["Clubs", "Hammers", "Maces"],
     runeOrder: ["Thul", "Io", "Nef"],
     effects: [
       "+120% Enhanced Damage",
@@ -37,7 +37,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Fury",
     sockets: 3,
-    itemType: "Melee Weapons",
+    itemType: ["Melee Weapons"],
     runeOrder: ["Jah", "Gul", "Eth"],
     effects: [
       "+209% Enhanced Damage",
@@ -56,7 +56,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Holy Thunder",
     sockets: 4,
-    itemType: "Scepters",
+    itemType: ["Scepters"],
     runeOrder: ["Eth", "Ral", "Ort", "Tal"],
     effects: [
       "+60% Enhanced Damage",
@@ -75,7 +75,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Honor",
     sockets: 5,
-    itemType: "Melee Weapons",
+    itemType: ["Melee Weapons"],
     runeOrder: ["Amn", "El", "Ith", "Tir", "Sol"],
     effects: [
       "+160% Enhanced Damage",
@@ -95,7 +95,7 @@ const runewords: Array<Runeword> = [
   {
     name: "King's Grace",
     sockets: 3,
-    itemType: "Swords/Scepters",
+    itemType: ["Swords", "Scepters"],
     runeOrder: ["Amn", "Ral", "Thul"],
     effects: [
       "+100% Enhanced Damage",
@@ -113,7 +113,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Leaf",
     sockets: 2,
-    itemType: "Staves* (Not Orbs)",
+    itemType: ["Staves (Not Orbs)"],
     runeOrder: ["Tir", "Ral"],
     effects: [
       "Adds 5-30 Fire Damage",
@@ -130,7 +130,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Lionheart",
     sockets: 3,
-    itemType: "Body Armor",
+    itemType: ["Body Armor"],
     runeOrder: ["Hel", "Lum", "Fal"],
     effects: [
       "+20% Enhanced Damage",
@@ -147,7 +147,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Lore",
     sockets: 2,
-    itemType: "Helms",
+    itemType: ["Helms"],
     runeOrder: ["Ort", "Sol"],
     effects: [
       "+1 To All Skill Levels",
@@ -162,7 +162,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Malice",
     sockets: 3,
-    itemType: "Melee Weapons",
+    itemType: ["Melee Weapons"],
     runeOrder: ["Ith", "El", "Eth"],
     effects: [
       "+33% Enhanced Damage",
@@ -179,7 +179,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Melody",
     sockets: 3,
-    itemType: "Missile Weapons",
+    itemType: ["Missile Weapons"],
     runeOrder: ["Shael", "Ko", "Nef"],
     effects: [
       "+50% Enhanced Damage",
@@ -197,7 +197,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Memory",
     sockets: 4,
-    itemType: "Staves (Not Orbs)",
+    itemType: ["Staves (Not Orbs)"],
     runeOrder: ["Lum", "Io", "Sol", "Eth"],
     effects: [
       "+3 to Sorceress Skill Levels",
@@ -217,7 +217,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Nadir",
     sockets: 2,
-    itemType: "Helms",
+    itemType: ["Helms"],
     runeOrder: ["Nef", "Tir"],
     effects: [
       "+50% Enhanced Defense",
@@ -234,7 +234,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Radiance",
     sockets: 3,
-    itemType: "Helms",
+    itemType: ["Helms"],
     runeOrder: ["Nef", "Sol", "Ith"],
     effects: [
       "+75% Enhanced Defense",
@@ -252,7 +252,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Rhyme",
     sockets: 2,
-    itemType: "Shields",
+    itemType: ["Shields"],
     runeOrder: ["Shael", "Eth"],
     effects: [
       "20% Increased Chance of Blocking",
@@ -268,7 +268,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Silence",
     sockets: 6,
-    itemType: "Weapons",
+    itemType: ["Weapons"],
     runeOrder: ["Dol", "Eld", "Hel", "Ist", "Tir", "Vex"],
     effects: [
       "200% Enhanced Damage",
@@ -290,7 +290,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Smoke",
     sockets: 2,
-    itemType: "Body Armor",
+    itemType: ["Body Armor"],
     runeOrder: ["Nef", "Lum"],
     effects: [
       "+75% Enhanced Defense",
@@ -306,7 +306,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Stealth",
     sockets: 2,
-    itemType: "Body Armor",
+    itemType: ["Body Armor"],
     runeOrder: ["Tal", "Eth"],
     effects: [
       "Magic Damage Reduced By 3",
@@ -323,7 +323,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Steel",
     sockets: 2,
-    itemType: "Swords/Axes/Maces",
+    itemType: ["Swords", "Axes", "Maces"],
     runeOrder: ["Tir", "El"],
     effects: [
       "20% Enhanced Damage",
@@ -340,7 +340,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Strength",
     sockets: 2,
-    itemType: "Melee Weapons",
+    itemType: ["Melee Weapons"],
     runeOrder: ["Amn", "Tir"],
     effects: [
       "35% Enhanced Damage",
@@ -355,7 +355,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Venom",
     sockets: 3,
-    itemType: "Weapons",
+    itemType: ["Weapons"],
     runeOrder: ["Tal", "Dol", "Mal"],
     effects: [
       "Hit Causes Monster To Flee 25%",
@@ -371,7 +371,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Wealth",
     sockets: 3,
-    itemType: "Body Armor",
+    itemType: ["Body Armor"],
     runeOrder: ["Lem", "Ko", "Tir"],
     effects: [
       "300% Extra Gold From Monsters",
@@ -384,7 +384,7 @@ const runewords: Array<Runeword> = [
   {
     name: "White",
     sockets: 2,
-    itemType: "Wand",
+    itemType: ["Wand"],
     runeOrder: ["Dol", "Io"],
     effects: [
       "Hit Causes Monster To Flee 25%",
@@ -402,7 +402,7 @@ const runewords: Array<Runeword> = [
   {
     name: "Zephyr",
     sockets: 2,
-    itemType: "Missile Weapons",
+    itemType: ["Missile Weapons"],
     runeOrder: ["Ort", "Eth"],
     effects: [
       "+33% Enhanced Damage",
