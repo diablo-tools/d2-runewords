@@ -1,7 +1,4 @@
-export function printMsg(message?: string): void {
-  console.log(`This is a message from the demo package`);
+import { getAllWords } from "./functions/getAllWords";
+import { sortWords } from "./functions/sortWords";
 
-  if (message) {
-    console.log("Your message", message);
-  }
-}
+export { getAllWords, sortWords };
