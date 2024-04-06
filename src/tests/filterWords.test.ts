@@ -63,5 +63,5 @@ assert(
     itemType: [],
     sockets: [],
     games: ["diablo2Resurrected"],
-  }).length === 7
+  }).length === 15
 );
