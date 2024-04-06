@@ -16,9 +16,6 @@
     "type": "git",
     "url": "git+https://github.com/diablo-tools/d2-runewords.git"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
-  },
   "keywords": [
     "data"
   ],
