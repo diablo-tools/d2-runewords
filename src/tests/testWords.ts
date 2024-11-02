@@ -1,4 +1,4 @@
-import { Runeword } from "../types/runeword";
+import { Runeword } from "../types/runeword"
 
 // This is a sub-list of 1.07 words
 const testWords: Runeword[] = [
@@ -16,6 +16,7 @@ const testWords: Runeword[] = [
       "10% Damage Goes To Mana",
     ],
     level: 21,
+    patch: "1.07",
   },
   {
     name: "Black",
@@ -34,6 +35,7 @@ const testWords: Runeword[] = [
       "Level 4 Corpse Explosion (12 Charges)",
     ],
     level: 35,
+    patch: "1.07",
   },
   {
     name: "Fury",
@@ -53,6 +55,7 @@ const testWords: Runeword[] = [
       "+5 To Frenzy (Barbarian Only)",
     ],
     level: 65,
+    patch: "1.07",
   },
   {
     name: "Holy Thunder",
@@ -72,6 +75,7 @@ const testWords: Runeword[] = [
       "Level 7 Chain Lightning (60 Charges)",
     ],
     level: 21,
+    patch: "1.07",
   },
   {
     name: "Honor",
@@ -92,6 +96,7 @@ const testWords: Runeword[] = [
       "+2 To Mana After Each Kill",
     ],
     level: 27,
+    patch: "1.07",
   },
   {
     name: "King's Grace",
@@ -110,6 +115,7 @@ const testWords: Runeword[] = [
       "7% Life Stolen Per Hit",
     ],
     level: 25,
+    patch: "1.07",
   },
   {
     name: "Leaf",
@@ -127,6 +133,7 @@ const testWords: Runeword[] = [
       "Cold Resist +33%",
     ],
     level: 19,
+    patch: "1.07",
   },
   {
     name: "Lionheart",
@@ -144,6 +151,7 @@ const testWords: Runeword[] = [
       "All Resistances +30",
     ],
     level: 41,
+    patch: "1.07",
   },
   {
     name: "Lore",
@@ -159,6 +167,7 @@ const testWords: Runeword[] = [
       "+2 To Light Radius",
     ],
     level: 27,
+    patch: "1.07",
   },
   {
     name: "Malice",
@@ -176,7 +185,8 @@ const testWords: Runeword[] = [
       "Drain Life -5",
     ],
     level: 15,
+    patch: "1.07",
   },
-];
+]
 
-export default testWords;
+export default testWords
