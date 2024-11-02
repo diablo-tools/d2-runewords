@@ -1,4 +1,4 @@
-import { Runeword } from "../../types/runeword";
+import { Runeword } from "../../types/runeword"
 
 const runewords: Array<Runeword> = [
   {
@@ -15,6 +15,7 @@ const runewords: Array<Runeword> = [
       "10% Damage Goes To Mana",
     ],
     level: 21,
+    patch: "1.07",
   },
   {
     name: "Black",
@@ -33,6 +34,7 @@ const runewords: Array<Runeword> = [
       "Level 4 Corpse Explosion (12 Charges)",
     ],
     level: 35,
+    patch: "1.07",
   },
   {
     name: "Fury",
@@ -52,6 +54,7 @@ const runewords: Array<Runeword> = [
       "+5 To Frenzy (Barbarian Only)",
     ],
     level: 65,
+    patch: "1.07",
   },
   {
     name: "Holy Thunder",
@@ -71,6 +74,7 @@ const runewords: Array<Runeword> = [
       "Level 7 Chain Lightning (60 Charges)",
     ],
     level: 21,
+    patch: "1.07",
   },
   {
     name: "Honor",
@@ -91,6 +95,7 @@ const runewords: Array<Runeword> = [
       "+2 To Mana After Each Kill",
     ],
     level: 27,
+    patch: "1.07",
   },
   {
     name: "King's Grace",
@@ -109,6 +114,7 @@ const runewords: Array<Runeword> = [
       "7% Life Stolen Per Hit",
     ],
     level: 25,
+    patch: "1.07",
   },
   {
     name: "Leaf",
@@ -126,6 +132,7 @@ const runewords: Array<Runeword> = [
       "Cold Resist +33%",
     ],
     level: 19,
+    patch: "1.07",
   },
   {
     name: "Lionheart",
@@ -143,6 +150,7 @@ const runewords: Array<Runeword> = [
       "All Resistances +30",
     ],
     level: 41,
+    patch: "1.07",
   },
   {
     name: "Lore",
@@ -158,6 +166,7 @@ const runewords: Array<Runeword> = [
       "+2 To Light Radius",
     ],
     level: 27,
+    patch: "1.07",
   },
   {
     name: "Malice",
@@ -175,6 +184,7 @@ const runewords: Array<Runeword> = [
       "Drain Life -5",
     ],
     level: 15,
+    patch: "1.07",
   },
   {
     name: "Melody",
@@ -193,6 +203,7 @@ const runewords: Array<Runeword> = [
       "Knockback",
     ],
     level: 39,
+    patch: "1.07",
   },
   {
     name: "Memory",
@@ -213,6 +224,7 @@ const runewords: Array<Runeword> = [
       "+50% Enhanced Defense",
     ],
     level: 37,
+    patch: "1.07",
   },
   {
     name: "Nadir",
@@ -230,6 +242,7 @@ const runewords: Array<Runeword> = [
       "-3 To Light Radius",
     ],
     level: 13,
+    patch: "1.07",
   },
   {
     name: "Radiance",
@@ -248,6 +261,7 @@ const runewords: Array<Runeword> = [
       "+5 To Light Radius",
     ],
     level: 27,
+    patch: "1.07",
   },
   {
     name: "Rhyme",
@@ -264,6 +278,7 @@ const runewords: Array<Runeword> = [
       "25% Better Chance Of Getting Magic Items",
     ],
     level: 29,
+    patch: "1.07",
   },
   {
     name: "Silence",
@@ -286,6 +301,7 @@ const runewords: Array<Runeword> = [
       "30% Better Chance Of Getting Magic Items",
     ],
     level: 55,
+    patch: "1.07",
   },
   {
     name: "Smoke",
@@ -302,6 +318,7 @@ const runewords: Array<Runeword> = [
       "-1 To Light Radius",
     ],
     level: 37,
+    patch: "1.07",
   },
   {
     name: "Stealth",
@@ -319,6 +336,7 @@ const runewords: Array<Runeword> = [
       "25% Faster Hit Recovery",
     ],
     level: 17,
+    patch: "1.07",
   },
   {
     name: "Steel",
@@ -336,6 +354,7 @@ const runewords: Array<Runeword> = [
       "+1 To Light Radius",
     ],
     level: 13,
+    patch: "1.07",
   },
   {
     name: "Strength",
@@ -351,6 +370,7 @@ const runewords: Array<Runeword> = [
       "+10 To Vitality",
     ],
     level: 25,
+    patch: "1.07",
   },
   {
     name: "Venom",
@@ -367,6 +387,7 @@ const runewords: Array<Runeword> = [
       "+273 Poison Damage Over 6 seconds",
     ],
     level: 49,
+    patch: "1.07",
   },
   {
     name: "Wealth",
@@ -380,6 +401,7 @@ const runewords: Array<Runeword> = [
       "+10 To Dexterity",
     ],
     level: 43,
+    patch: "1.07",
   },
   {
     name: "White",
@@ -398,6 +420,7 @@ const runewords: Array<Runeword> = [
       "+13 To Mana",
     ],
     level: 35,
+    patch: "1.07",
   },
   {
     name: "Zephyr",
@@ -415,7 +438,8 @@ const runewords: Array<Runeword> = [
       "7% Chance To Cast Level 1 Twister When Struck",
     ],
     level: 21,
+    patch: "1.07",
   },
-];
+]
 
-export default runewords;
+export default runewords

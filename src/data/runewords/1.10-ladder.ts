@@ -1,4 +1,4 @@
-import { Runeword } from "../../types/runeword";
+import { Runeword } from "../../types/runeword"
 
 const runewords: Array<Runeword> = [
   {
@@ -20,6 +20,7 @@ const runewords: Array<Runeword> = [
     ],
     ladderOnly: true,
     level: 65,
+    patch: "1.10",
   },
   {
     name: "Death",
@@ -43,6 +44,7 @@ const runewords: Array<Runeword> = [
     ],
     ladderOnly: true,
     level: 55,
+    patch: "1.10",
   },
   {
     name: "Destruction",
@@ -65,6 +67,7 @@ const runewords: Array<Runeword> = [
     ],
     ladderOnly: true,
     level: 65,
+    patch: "1.10",
   },
   {
     name: "Dragon",
@@ -86,6 +89,7 @@ const runewords: Array<Runeword> = [
     ],
     ladderOnly: true,
     level: 61,
+    patch: "1.10",
   },
   {
     name: "Dream",
@@ -107,6 +111,7 @@ const runewords: Array<Runeword> = [
     ],
     ladderOnly: true,
     level: 65,
+    patch: "1.10",
   },
   {
     name: "Edge",
@@ -127,6 +132,7 @@ const runewords: Array<Runeword> = [
     ],
     ladderOnly: true,
     level: 25,
+    patch: "1.10",
   },
   {
     name: "Faith",
@@ -148,6 +154,7 @@ const runewords: Array<Runeword> = [
     ],
     ladderOnly: true,
     level: 65,
+    patch: "1.10",
   },
   {
     name: "Fortitude",
@@ -185,6 +192,7 @@ const runewords: Array<Runeword> = [
     ],
     ladderOnly: true,
     level: 59,
+    patch: "1.10",
   },
   {
     name: "Grief",
@@ -207,6 +215,7 @@ const runewords: Array<Runeword> = [
     ],
     ladderOnly: true,
     level: 59,
+    patch: "1.10",
   },
   {
     name: "Harmony",
@@ -230,6 +239,7 @@ const runewords: Array<Runeword> = [
     ],
     ladderOnly: true,
     level: 39,
+    patch: "1.10",
   },
   {
     name: "Ice",
@@ -251,6 +261,7 @@ const runewords: Array<Runeword> = [
     ],
     ladderOnly: true,
     level: 65,
+    patch: "1.10",
   },
   {
     name: "Infinity",
@@ -271,6 +282,7 @@ const runewords: Array<Runeword> = [
     ],
     ladderOnly: true,
     level: 63,
+    patch: "1.10",
   },
   {
     name: "Insight",
@@ -292,6 +304,7 @@ const runewords: Array<Runeword> = [
     ],
     ladderOnly: true,
     level: 27,
+    patch: "1.10",
   },
   {
     name: "Last Wish",
@@ -312,6 +325,7 @@ const runewords: Array<Runeword> = [
     ],
     ladderOnly: true,
     level: 65,
+    patch: "1.10",
   },
   {
     name: "Lawbringer",
@@ -332,6 +346,7 @@ const runewords: Array<Runeword> = [
     ],
     ladderOnly: true,
     level: 43,
+    patch: "1.10",
   },
   {
     name: "Oath",
@@ -353,6 +368,7 @@ const runewords: Array<Runeword> = [
     ],
     ladderOnly: true,
     level: 49,
+    patch: "1.10",
   },
   {
     name: "Obedience",
@@ -375,6 +391,7 @@ const runewords: Array<Runeword> = [
     ],
     ladderOnly: true,
     level: 41,
+    patch: "1.10",
   },
   {
     name: "Phoenix",
@@ -408,6 +425,7 @@ const runewords: Array<Runeword> = [
     ],
     ladderOnly: true,
     level: 65,
+    patch: "1.10",
   },
   {
     name: "Pride",
@@ -429,6 +447,7 @@ const runewords: Array<Runeword> = [
     ],
     ladderOnly: true,
     level: 67,
+    patch: "1.10",
   },
   {
     name: "Rift",
@@ -450,6 +469,7 @@ const runewords: Array<Runeword> = [
     ],
     ladderOnly: true,
     level: 53,
+    patch: "1.10",
   },
   {
     name: "Spirit",
@@ -485,6 +505,7 @@ const runewords: Array<Runeword> = [
     ],
     ladderOnly: true,
     level: 25,
+    patch: "1.10",
   },
   {
     name: "Voice of Reason",
@@ -507,6 +528,7 @@ const runewords: Array<Runeword> = [
     ],
     ladderOnly: true,
     level: 43,
+    patch: "1.10",
   },
   {
     name: "Wrath",
@@ -528,7 +550,8 @@ const runewords: Array<Runeword> = [
     ],
     ladderOnly: true,
     level: 63,
+    patch: "1.10",
   },
-];
+]
 
-export default runewords;
+export default runewords

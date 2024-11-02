@@ -1,4 +1,4 @@
-import { Runeword } from "../../types/runeword";
+import { Runeword } from "../../types/runeword"
 
 const runewords: Array<Runeword> = [
   {
@@ -21,6 +21,7 @@ const runewords: Array<Runeword> = [
       "Level 13 Summon Grizzly (5 Charges)",
     ],
     level: 63,
+    patch: "1.10",
   },
   {
     name: "Bramble",
@@ -41,6 +42,7 @@ const runewords: Array<Runeword> = [
       "Level 13 Spirit of Barbs (33 Charges)",
     ],
     level: 61,
+    patch: "1.10",
   },
   {
     name: "Breath of the Dying",
@@ -64,6 +66,7 @@ const runewords: Array<Runeword> = [
       "Requirements -20%",
     ],
     level: 69,
+    patch: "1.10",
   },
   {
     name: "Call To Arms*",
@@ -84,6 +87,7 @@ const runewords: Array<Runeword> = [
       "30% Better Chance of Getting Magic Items",
     ],
     level: 57,
+    patch: "1.10",
   },
   {
     name: "Chains of Honor",
@@ -103,6 +107,7 @@ const runewords: Array<Runeword> = [
       "25% Better Chance of Getting Magic Items",
     ],
     level: 63,
+    patch: "1.10",
   },
   {
     name: "Chaos",
@@ -121,6 +126,7 @@ const runewords: Array<Runeword> = [
       "+15 Life After Each Demon Kill",
     ],
     level: 57,
+    patch: "1.10",
   },
   {
     name: "Crescent Moon",
@@ -140,6 +146,7 @@ const runewords: Array<Runeword> = [
       "Level 18 Summon Spirit Wolf (30 Charges)",
     ],
     level: 47,
+    patch: "1.10",
   },
   {
     name: "Delirium*",
@@ -159,6 +166,7 @@ const runewords: Array<Runeword> = [
       "Level 17 Attract (60 Charges)",
     ],
     level: 51,
+    patch: "1.10",
   },
   {
     name: "Doom",
@@ -179,6 +187,7 @@ const runewords: Array<Runeword> = [
       "Requirements -20%",
     ],
     level: 67,
+    patch: "1.10",
   },
   {
     name: "Duress",
@@ -199,6 +208,7 @@ const runewords: Array<Runeword> = [
       "Poison Resist +15%",
     ],
     level: 47,
+    patch: "1.10",
   },
   {
     name: "Enigma",
@@ -218,6 +228,7 @@ const runewords: Array<Runeword> = [
       "+ (1 Per Character Level) +1-99% Better Chance of Getting Magic Items (Based On Character Level)",
     ],
     level: 65,
+    patch: "1.10",
   },
   {
     name: "Eternity",
@@ -239,6 +250,7 @@ const runewords: Array<Runeword> = [
       "Level 8 Revive (88 Charges)",
     ],
     level: 63,
+    patch: "1.10",
   },
   {
     name: "Exile",
@@ -259,6 +271,7 @@ const runewords: Array<Runeword> = [
       "Repairs 1 Durability in 4 Seconds",
     ],
     level: 57,
+    patch: "1.10",
   },
   {
     name: "Famine",
@@ -278,6 +291,7 @@ const runewords: Array<Runeword> = [
       "+10 To Strength",
     ],
     level: 65,
+    patch: "1.10",
   },
   {
     name: "Gloom",
@@ -295,6 +309,7 @@ const runewords: Array<Runeword> = [
       "-3 To Light Radius",
     ],
     level: 47,
+    patch: "1.10",
   },
   {
     name: "Hand of Justice*",
@@ -315,6 +330,7 @@ const runewords: Array<Runeword> = [
       "Freezes Target +3",
     ],
     level: 67,
+    patch: "1.10",
   },
   {
     name: "Heart of the Oak",
@@ -336,6 +352,7 @@ const runewords: Array<Runeword> = [
       "Level 14 Raven (60 Charges)",
     ],
     level: 55,
+    patch: "1.10",
   },
   {
     name: "Kingslayer",
@@ -355,6 +372,7 @@ const runewords: Array<Runeword> = [
       "40% Extra Gold From Monsters",
     ],
     level: 53,
+    patch: "1.10",
   },
   {
     name: "Passion",
@@ -376,6 +394,7 @@ const runewords: Array<Runeword> = [
       "Level 3 Heart of Wolverine (12 Charges)",
     ],
     level: 43,
+    patch: "1.10",
   },
   {
     name: "Prudence",
@@ -393,6 +412,7 @@ const runewords: Array<Runeword> = [
       "Repairs Durability 1 In 4 Seconds",
     ],
     level: 49,
+    patch: "1.10",
   },
   {
     name: "Sanctuary",
@@ -411,6 +431,7 @@ const runewords: Array<Runeword> = [
       "Level 12 Slow Missiles (60 Charges)",
     ],
     level: 49,
+    patch: "1.10",
   },
   {
     name: "Splendor",
@@ -429,6 +450,7 @@ const runewords: Array<Runeword> = [
       "+3 To Light Radius",
     ],
     level: 37,
+    patch: "1.10",
   },
   {
     name: "Stone",
@@ -447,6 +469,7 @@ const runewords: Array<Runeword> = [
       "Level 16 Clay Golem (16 Charges)",
     ],
     level: 47,
+    patch: "1.10",
   },
   {
     name: "Wind",
@@ -466,7 +489,8 @@ const runewords: Array<Runeword> = [
       "Level 13 Twister (127 Charges)",
     ],
     level: 61,
+    patch: "1.10",
   },
-];
+]
 
-export default runewords;
+export default runewords

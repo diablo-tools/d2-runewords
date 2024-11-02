@@ -1,4 +1,4 @@
-import { Runeword } from "../../types/runeword";
+import { Runeword } from "../../types/runeword"
 
 const runewords: Array<Runeword> = [
   {
@@ -20,6 +20,7 @@ const runewords: Array<Runeword> = [
     ],
     level: 67,
     diablo2ResurrectedOnly: true,
+    patch: "2.4",
   },
   {
     name: "Pattern",
@@ -40,6 +41,7 @@ const runewords: Array<Runeword> = [
     ],
     level: 23,
     diablo2ResurrectedOnly: true,
+    patch: "2.4",
   },
   {
     name: "Unbending Will",
@@ -65,6 +67,7 @@ const runewords: Array<Runeword> = [
     ],
     level: 41,
     diablo2ResurrectedOnly: true,
+    patch: "2.4",
   },
   {
     name: "Wisdom",
@@ -84,6 +87,7 @@ const runewords: Array<Runeword> = [
     ],
     level: 45,
     diablo2ResurrectedOnly: true,
+    patch: "2.4",
   },
   {
     name: "Obsession",
@@ -107,6 +111,7 @@ const runewords: Array<Runeword> = [
     ],
     level: 69,
     diablo2ResurrectedOnly: true,
+    patch: "2.4",
   },
   {
     name: "Flickering Flame",
@@ -126,6 +131,7 @@ const runewords: Array<Runeword> = [
     ],
     level: 55,
     diablo2ResurrectedOnly: true,
+    patch: "2.4",
   },
   {
     name: "Mist",
@@ -147,7 +153,8 @@ const runewords: Array<Runeword> = [
     ],
     level: 67,
     diablo2ResurrectedOnly: true,
+    patch: "2.4",
   },
-];
+]
 
-export default runewords;
+export default runewords

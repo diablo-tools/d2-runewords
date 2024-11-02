@@ -1,4 +1,4 @@
-import { Runeword } from "../../types/runeword";
+import { Runeword } from "../../types/runeword"
 
 const runewords: Array<Runeword> = [
   {
@@ -15,6 +15,7 @@ const runewords: Array<Runeword> = [
       "Damage Reduced By 7",
     ],
     level: 47,
+    patch: "1.11",
   },
   {
     name: "Enlightenment (Sorceress)",
@@ -31,6 +32,7 @@ const runewords: Array<Runeword> = [
       "Damage Reduced By 7",
     ],
     level: 45,
+    patch: "1.11",
   },
   {
     name: "Myth (Barbarian)",
@@ -47,6 +49,7 @@ const runewords: Array<Runeword> = [
       "Requirements -15%",
     ],
     level: 25,
+    patch: "1.11",
   },
   {
     name: "Peace (Amazon)",
@@ -63,6 +66,7 @@ const runewords: Array<Runeword> = [
       "Attacker Takes Damage of 14",
     ],
     level: 29,
+    patch: "1.11",
   },
   {
     name: "Principle (Paladin)",
@@ -79,6 +83,7 @@ const runewords: Array<Runeword> = [
       "Fire Resist +30%",
     ],
     level: 53,
+    patch: "1.11",
   },
   {
     name: "Rain (Druid)",
@@ -95,6 +100,7 @@ const runewords: Array<Runeword> = [
       "15% Damage Taken Goes to Mana",
     ],
     level: 49,
+    patch: "1.11",
   },
   {
     name: "Treachery (Assassin)",
@@ -111,7 +117,8 @@ const runewords: Array<Runeword> = [
       "50% Extra Gold From Monsters",
     ],
     level: 43,
+    patch: "1.11",
   },
-];
+]
 
-export default runewords;
+export default runewords
