@@ -1,12 +1,18 @@
 {
   "name": "@diablo-tools/d2-runewords",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "description": "A small data package with rune/runeword information for Diablo 2",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "type": "module",
   "files": [
     "/dist"
   ],
+  "exports": {
+    ".": {
+      "import": "./dist/index.js"
+    }
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 0",
     "build": "npx tsc",
