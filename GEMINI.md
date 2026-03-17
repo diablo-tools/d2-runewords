@@ -39,4 +39,12 @@ Use Test/Spec Driven implementation strategies for implementing features
    1. The plan should always start with creating new failing tests for the expected feature
    2. Implement the feature until the new tests pass
    3. Run all the tests and ensure they pass
-4. When user accepts the plan, execute the plan
+4. When user accepts the plan, execute the plan.
+
+## Implementation: Patch 3.0 Runewords
+
+- **Authority**, **Coven**, **Void**, **Vigilance**, and **Ritual** runewords added.
+- Updated `ItemType` in `src/types/items.ts` to include `Daggers`, `Grimoires`, `Shrunken Heads`, and `Targes`.
+- Created `src/data/runewords/3.0.ts` with complete definitions.
+- Registered new runewords in `src/functions/getAllWords.ts`.
+- Verified with new test suite `src/tests/patch30.test.ts`.
