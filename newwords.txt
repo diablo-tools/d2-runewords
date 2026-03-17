@@ -1,0 +1,88 @@
+Authority
+Patch 3.0 Runeword
+ Hel  Shael  Ral
+
+Req level: 29
+3 socket Body Armor
+
+2% Chance to cast level 10 Psychic Ward when struck
+10% Chance to cast level 15 Miasma Chain on striking
++2 to Warlock Skill Levels
++40-60% Enhanced Damage
+Requirements -15%
++20% Faster Hit Recovery
+Fire Resist +30%
+
+======
+
+Coven
+Patch 3.0 Runeword
+ Ist  Ral  Io
+
+Req level: 51
+3 socket Helms
+
+5% Chance to cast level 10 Sigil Lethargy when struck
++1 to All Skills
++20% Faster Cast Rate
++30-50% Enhanced Defense
++1-5 Life after each Kill
+26-40% Better Chance of Getting Magic Items
+Fire Resist +30%
++10 to Vitality
+
+======
+
+Void
+Patch 3.0 Runeword
+ Thul  Zod  Ist
+
+Req level: 69
+3 socket Daggers
+
++2 to All Skills
++40% Faster Cast Rate
++10-15% to Magic Skill Damage
++1-3 to Abyss
++8-12 to all Attributes
+Level 4 Decrepify (35/35 Charges)
+Adds 3-14 Cold Damage
+Indestructible
+30% Better Chance of Getting Magic Items
+
+======
+
+Vigilance
+Patch 3.0 Runeword
+ Dol  Gul
+
+Req level: 53
+2 socket Grimoires Shields Shrunken Heads Targes
+
+5% Chance to cast level 10 Ring of Fire when struck
++10% Faster Run/Walk
++30% Faster Block Rate
++20-40 to Life
++20-40 to Mana
+All Resistances +25-35
++75-100% Enhanced Defense
+Replenish Life +7
++5% to Maximum Poison Resist
+
+======
+
+Ritual
+Patch 3.0 Runeword
+ Amn  Shael  Ohm
+
+Req level: 57
+3 socket Daggers
+
+13% Chance to cast level 1 Sigil Death when struck
++40% Increased Attack Speed
++250-320% Enhanced Damage
++150-250% Damage to Demons
++200-260% Bonus to Attack Rating
++3-5 Life after each Kill
+Slain Monsters Rest in Peace
+7% Life stolen per hit

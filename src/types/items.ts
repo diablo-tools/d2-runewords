@@ -5,6 +5,8 @@ export type ItemType =
   | "Claws"
   | "Clubs"
   | "Crossbows"
+  | "Daggers"
+  | "Grimoires"
   | "Hammers"
   | "Helms"
   | "Maces"
@@ -14,8 +16,10 @@ export type ItemType =
   | "Polearms"
   | "Scepters"
   | "Shields"
+  | "Shrunken Heads"
   | "Staves (Not Orbs)"
   | "Swords"
+  | "Targes"
   | "Wand"
   | "Weapons";
 
