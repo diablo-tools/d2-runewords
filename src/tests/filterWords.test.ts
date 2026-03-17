@@ -1,67 +1,79 @@
-import assert from "assert";
+import { describe, it, expect } from 'vitest';
 import { filterWords } from "../functions/filterWords";
 import words from "./testWords";
-
 import { getAllWords } from "../functions/getAllWords";
 
-// Socket tests
-const sockets2 = filterWords(words, {
-  itemType: [],
-  sockets: [2],
-  games: [],
-});
-assert(sockets2.length === 2);
+describe('filterWords', () => {
+  it('should filter by sockets (2)', () => {
+    const result = filterWords(words, {
+      itemType: [],
+      sockets: [2],
+      games: [],
+    });
+    expect(result.length).toBe(2);
+  });
 
-const sockets3 = filterWords(words, {
-  itemType: [],
-  sockets: [3],
-  games: [],
-});
-assert(sockets3.length === 6);
+  it('should filter by sockets (3)', () => {
+    const result = filterWords(words, {
+      itemType: [],
+      sockets: [3],
+      games: [],
+    });
+    expect(result.length).toBe(6);
+  });
 
-// ItemType tests
-const itemType = filterWords(words, {
-  itemType: ["Scepters"],
-  sockets: [],
-  games: [],
-});
-assert(itemType.length === 2);
+  it('should filter by itemType (Scepters)', () => {
+    const result = filterWords(words, {
+      itemType: ["Scepters"],
+      sockets: [],
+      games: [],
+    });
+    expect(result.length).toBe(2);
+  });
 
-const combinedTypes = filterWords(words, {
-  itemType: ["Maces", "Scepters", "Shields"],
-  sockets: [],
-  games: [],
-});
-assert(combinedTypes.length === 4);
+  it('should filter by multiple itemTypes', () => {
+    const result = filterWords(words, {
+      itemType: ["Maces", "Scepters", "Shields"],
+      sockets: [],
+      games: [],
+    });
+    expect(result.length).toBe(4);
+  });
 
-// Sockets and types
-const selectedSocketsAndFilters = filterWords(words, {
-  itemType: ["Maces", "Scepters", "Shields"],
-  sockets: [3],
-  games: [],
-});
-assert(selectedSocketsAndFilters.length === 3);
+  it('should filter by sockets and types', () => {
+    const result = filterWords(words, {
+      itemType: ["Maces", "Scepters", "Shields"],
+      sockets: [3],
+      games: [],
+    });
+    expect(result.length).toBe(3);
+  });
 
-// Sockets and types and games
-const selectedSocketsFiltersGames = filterWords(words, {
-  itemType: ["Maces", "Scepters", "Shields"],
-  sockets: [3],
-  games: ["diablo2"],
-});
-assert(selectedSocketsFiltersGames.length === 3);
+  it('should filter by sockets, types, and game (diablo2)', () => {
+    const result = filterWords(words, {
+      itemType: ["Maces", "Scepters", "Shields"],
+      sockets: [3],
+      games: ["diablo2"],
+    });
+    expect(result.length).toBe(3);
+  });
 
-// Sockets and types and games
-const selectedSocketsFiltersGames2 = filterWords(words, {
-  itemType: ["Maces", "Scepters", "Shields"],
-  sockets: [3],
-  games: ["diablo2Resurrected"],
-});
-assert(selectedSocketsFiltersGames2.length === 0);
+  it('should filter by sockets, types, and game (diablo2Resurrected)', () => {
+    const result = filterWords(words, {
+      itemType: ["Maces", "Scepters", "Shields"],
+      sockets: [3],
+      games: ["diablo2Resurrected"],
+    });
+    expect(result.length).toBe(0);
+  });
 
-assert(
-  filterWords(getAllWords(), {
-    itemType: [],
-    sockets: [],
-    games: ["diablo2Resurrected"],
-  }).length === 15
-);
+  it('should filter all words by game (diablo2Resurrected)', () => {
+    expect(
+      filterWords(getAllWords(), {
+        itemType: [],
+        sockets: [],
+        games: ["diablo2Resurrected"],
+      }).length
+    ).toBe(15);
+  });
+});
